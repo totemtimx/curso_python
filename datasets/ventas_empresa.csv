@@ -1,0 +1,501 @@
+ID_Venta,Fecha,Producto,Categoria,Cantidad,Precio_Unitario,Subtotal,Descuento_Porcentaje,Descuento_Monto,Impuestos,Total,Vendedor,Region,Ciudad,Metodo_Pago,Estado
+V0001,2025-06-09,Impresora HP,Oficina,1,2788.83,2788.83,0,0.0,446.21,3235.04,Ana García,Centro,Toluca,Tarjeta de Crédito,Completada
+V0002,2025-05-24,Parlantes Bluetooth,Audio,5,1782.03,8910.15,0,0.0,1425.62,10335.77,Carmen Jiménez,Este,Veracruz,Tarjeta de Crédito,Completada
+V0003,2025-04-29,Cargador Inalámbrico,Accesorios,2,769.48,1538.96,0,0.0,246.23,1785.19,Juan Pérez,Norte,Monterrey,Tarjeta de Crédito,Completada
+V0004,2024-11-17,Smartwatch Apple,Wearables,1,9940.49,9940.49,15,1491.07,1351.91,9801.33,Juan Pérez,Sur,Villahermosa,Efectivo,Pendiente
+V0005,2025-03-29,iPhone 14,Teléfonos,1,21390.11,21390.11,10,2139.01,3080.18,22331.28,Pedro Sánchez,Este,Xalapa,Tarjeta de Débito,Completada
+V0006,2025-04-07,Cable HDMI,Accesorios,6,144.2,865.1999999999999,0,0.0,138.43,1003.63,Ana García,Este,Tampico,Tarjeta de Crédito,Completada
+V0007,2024-12-16,Laptop Dell XPS,Computadoras,2,24517.79,49035.58,0,0.0,7845.69,56881.27,Juan Pérez,Este,Xalapa,Transferencia,Completada
+V0008,2024-11-28,Auriculares Sony,Audio,5,3660.57,18302.850000000002,0,0.0,2928.46,21231.31,Diego Torres,Sur,Tuxtla,Efectivo,Completada
+V0009,2025-07-18,Disco Duro 1TB,Almacenamiento,4,1370.37,5481.48,10,548.15,789.33,5722.66,Juan Pérez,Oeste,Guadalajara,Tarjeta de Débito,Completada
+V0010,2024-11-06,Laptop Dell XPS,Computadoras,8,25619.46,204955.68,10,20495.57,29513.62,213973.73,Miguel Hernández,Oeste,Morelia,Transferencia,Completada
+V0011,2025-04-05,Tablet Samsung,Tablets,1,8833.54,8833.54,0,0.0,1413.37,10246.91,María López,Norte,Tijuana,Efectivo,Completada
+V0012,2025-02-04,Disco Duro 1TB,Almacenamiento,9,1167.14,10504.26,5,525.21,1596.65,11575.7,Miguel Hernández,Este,Veracruz,Tarjeta de Crédito,Completada
+V0013,2025-01-30,"Monitor LG 27""",Periféricos,6,4721.07,28326.42,0,0.0,4532.23,32858.65,María López,Este,Tampico,Tarjeta de Débito,Cancelada
+V0014,2025-04-22,Router WiFi,Redes,2,1992.27,3984.54,5,199.23,605.65,4390.96,Laura Martínez,Norte,Saltillo,Efectivo,Completada
+V0015,2025-04-21,Mouse Inalámbrico,Periféricos,2,741.27,1482.54,0,0.0,237.21,1719.75,Carmen Jiménez,Centro,Ciudad de México,Efectivo,Completada
+V0016,2024-12-18,Impresora HP,Oficina,1,2512.5,2512.5,0,0.0,402.0,2914.5,Carmen Jiménez,Sur,Tuxtla,Efectivo,Completada
+V0017,2024-11-28,Webcam Logitech,Periféricos,1,1159.63,1159.63,10,115.96,166.99,1210.66,Laura Martínez,Centro,Toluca,Tarjeta de Débito,Completada
+V0018,2024-10-09,Cargador Inalámbrico,Accesorios,1,729.65,729.65,0,0.0,116.74,846.39,Miguel Hernández,Este,Coatzacoalcos,Tarjeta de Crédito,Completada
+V0019,2025-07-14,Webcam Logitech,Periféricos,10,1220.44,12204.400000000001,0,0.0,1952.7,14157.1,María López,Norte,Saltillo,Tarjeta de Débito,Completada
+V0020,2025-04-11,Laptop Dell XPS,Computadoras,8,20475.8,163806.4,5,8190.32,24898.57,180514.65,Laura Martínez,Oeste,Colima,Tarjeta de Crédito,Completada
+V0021,2024-10-22,Laptop Dell XPS,Computadoras,5,28529.42,142647.09999999998,0,0.0,22823.54,165470.64,Diego Torres,Este,Veracruz,Efectivo,Pendiente
+V0022,2025-01-09,Mouse Inalámbrico,Periféricos,1,755.09,755.09,5,37.75,114.77,832.11,Sofía Ruiz,Este,Tampico,Efectivo,Cancelada
+V0023,2025-03-09,Cargador Inalámbrico,Accesorios,2,878.41,1756.82,0,0.0,281.09,2037.91,Ana García,Este,Tampico,Tarjeta de Débito,Completada
+V0024,2025-01-19,Parlantes Bluetooth,Audio,9,1944.8,17503.2,10,1750.32,2520.46,18273.34,Juan Pérez,Este,Coatzacoalcos,Tarjeta de Débito,Completada
+V0025,2025-06-05,iPhone 14,Teléfonos,8,21342.72,170741.76,0,0.0,27318.68,198060.44,Diego Torres,Norte,Saltillo,Tarjeta de Débito,Completada
+V0026,2025-01-24,Router WiFi,Redes,1,2311.84,2311.84,5,115.59,351.4,2547.65,Carmen Jiménez,Este,Xalapa,Tarjeta de Crédito,Pendiente
+V0027,2025-01-04,Cámara Canon,Fotografía,5,14706.62,73533.1,15,11029.97,10000.5,72503.63,Laura Martínez,Norte,Saltillo,Tarjeta de Débito,Cancelada
+V0028,2025-03-23,MacBook Pro,Computadoras,3,28362.06,85086.18000000001,5,4254.31,12933.1,93764.97,Pedro Sánchez,Centro,Ciudad de México,Tarjeta de Crédito,Completada
+V0029,2024-12-23,Webcam Logitech,Periféricos,2,1163.18,2326.36,5,116.32,353.61,2563.65,Miguel Hernández,Oeste,Puerto Vallarta,Tarjeta de Débito,Completada
+V0030,2025-05-10,Memoria USB 64GB,Almacenamiento,2,414.71,829.42,0,0.0,132.71,962.13,Sofía Ruiz,Norte,Monterrey,Efectivo,Completada
+V0031,2025-08-26,Smartwatch Apple,Wearables,2,10782.08,21564.16,15,3234.62,2932.73,21262.27,Miguel Hernández,Oeste,Morelia,Tarjeta de Débito,Completada
+V0032,2025-04-23,iPad Air,Tablets,1,9914.94,9914.94,0,0.0,1586.39,11501.33,Sofía Ruiz,Sur,Tuxtla,Efectivo,Completada
+V0033,2024-11-09,Auriculares Sony,Audio,2,3331.22,6662.44,5,333.12,1012.69,7342.01,Ana García,Oeste,Guadalajara,Efectivo,Completada
+V0034,2024-10-05,Impresora HP,Oficina,2,2969.23,5938.46,0,0.0,950.15,6888.61,Miguel Hernández,Oeste,Colima,Tarjeta de Crédito,Completada
+V0035,2024-12-05,Tablet Samsung,Tablets,4,7992.57,31970.28,0,0.0,5115.24,37085.52,Laura Martínez,Sur,Mérida,Transferencia,Completada
+V0036,2025-06-24,iPad Air,Tablets,3,14267.37,42802.11,0,0.0,6848.34,49650.45,Diego Torres,Este,Xalapa,Tarjeta de Débito,Completada
+V0037,2025-06-18,Smartwatch Apple,Wearables,3,7477.49,22432.47,0,0.0,3589.2,26021.67,Juan Pérez,Norte,Tijuana,Tarjeta de Débito,Completada
+V0038,2025-02-07,Laptop Dell XPS,Computadoras,2,27377.48,54754.96,0,0.0,8760.79,63515.75,Sofía Ruiz,Oeste,Puerto Vallarta,Tarjeta de Débito,Completada
+V0039,2025-06-19,Mouse Inalámbrico,Periféricos,2,640.81,1281.62,0,0.0,205.06,1486.68,Pedro Sánchez,Este,Coatzacoalcos,Efectivo,Completada
+V0040,2024-09-21,Memoria USB 64GB,Almacenamiento,5,282.1,1410.5,0,0.0,225.68,1636.18,Ana García,Este,Xalapa,Tarjeta de Débito,Completada
+V0041,2025-06-05,Samsung Galaxy S23,Teléfonos,4,18473.65,73894.6,15,11084.19,10049.67,72860.08,Pedro Sánchez,Norte,Monterrey,Tarjeta de Débito,Completada
+V0042,2025-03-20,Smartwatch Apple,Wearables,2,10245.47,20490.94,0,0.0,3278.55,23769.49,Sofía Ruiz,Oeste,Colima,Tarjeta de Débito,Completada
+V0043,2025-05-17,Auriculares Sony,Audio,3,3811.91,11435.73,0,0.0,1829.72,13265.45,Ana García,Centro,Ciudad de México,Transferencia,Completada
+V0044,2024-09-26,Laptop Dell XPS,Computadoras,3,22317.69,66953.06999999999,0,0.0,10712.49,77665.56,Miguel Hernández,Norte,Saltillo,Tarjeta de Débito,Completada
+V0045,2024-11-02,Tablet Samsung,Tablets,4,6507.17,26028.68,0,0.0,4164.59,30193.27,María López,Norte,Tijuana,Tarjeta de Crédito,Pendiente
+V0046,2024-12-15,Auriculares Sony,Audio,3,3212.78,9638.34,0,0.0,1542.13,11180.47,Carmen Jiménez,Oeste,Colima,Tarjeta de Débito,Completada
+V0047,2024-11-02,Parlantes Bluetooth,Audio,3,1464.35,4393.049999999999,20,878.61,562.31,4076.75,Sofía Ruiz,Este,Xalapa,Tarjeta de Débito,Completada
+V0048,2025-08-25,Smartwatch Apple,Wearables,7,7338.97,51372.79,10,5137.28,7397.68,53633.19,Sofía Ruiz,Este,Tampico,Tarjeta de Crédito,Completada
+V0049,2025-02-16,Disco Duro 1TB,Almacenamiento,4,1433.54,5734.16,5,286.71,871.59,6319.04,Juan Pérez,Este,Tampico,Tarjeta de Crédito,Completada
+V0050,2025-05-12,Disco Duro 1TB,Almacenamiento,2,1073.35,2146.7,5,107.33,326.3,2365.67,Carmen Jiménez,Oeste,Colima,Efectivo,Completada
+V0051,2025-02-21,"Monitor LG 27""",Periféricos,2,5004.61,10009.22,20,2001.84,1281.18,9288.56,Juan Pérez,Este,Tampico,Tarjeta de Crédito,Completada
+V0052,2025-01-22,Teclado Mecánico,Periféricos,1,1236.47,1236.47,0,0.0,197.84,1434.31,Carlos Rodríguez,Este,Tampico,Tarjeta de Crédito,Completada
+V0053,2025-05-16,iPhone 14,Teléfonos,6,18926.75,113560.5,5,5678.03,17261.2,125143.67,Juan Pérez,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0054,2024-11-26,"Monitor LG 27""",Periféricos,5,4158.18,20790.9,5,1039.55,3160.22,22911.57,Ana García,Oeste,Guadalajara,Efectivo,Completada
+V0055,2024-09-21,Router WiFi,Redes,3,1814.85,5444.549999999999,20,1088.91,696.9,5052.54,Laura Martínez,Sur,Mérida,Transferencia,Completada
+V0056,2025-06-12,Webcam Logitech,Periféricos,4,949.44,3797.76,10,379.78,546.88,3964.86,María López,Norte,Saltillo,Tarjeta de Crédito,Completada
+V0057,2025-04-16,Router WiFi,Redes,1,2308.56,2308.56,0,0.0,369.37,2677.93,Pedro Sánchez,Este,Tampico,Tarjeta de Débito,Completada
+V0058,2024-10-03,Webcam Logitech,Periféricos,2,1151.76,2303.52,0,0.0,368.56,2672.08,Ana García,Sur,Cancún,Transferencia,Completada
+V0059,2025-06-04,Cable HDMI,Accesorios,4,141.83,567.32,10,56.73,81.69,592.28,Laura Martínez,Centro,Toluca,Tarjeta de Crédito,Cancelada
+V0060,2025-02-19,Router WiFi,Redes,4,2433.89,9735.56,0,0.0,1557.69,11293.25,María López,Sur,Mérida,Efectivo,Completada
+V0061,2025-01-31,Disco Duro 1TB,Almacenamiento,1,1286.31,1286.31,0,0.0,205.81,1492.12,María López,Centro,Ciudad de México,Tarjeta de Débito,Completada
+V0062,2024-10-29,Webcam Logitech,Periféricos,1,1187.24,1187.24,5,59.36,180.46,1308.34,Diego Torres,Centro,Puebla,Tarjeta de Débito,Completada
+V0063,2025-07-25,Webcam Logitech,Periféricos,3,1085.65,3256.9500000000003,0,0.0,521.11,3778.06,Pedro Sánchez,Sur,Mérida,Tarjeta de Débito,Completada
+V0064,2024-10-29,Samsung Galaxy S23,Teléfonos,1,15474.55,15474.55,0,0.0,2475.93,17950.48,Carmen Jiménez,Oeste,Morelia,Efectivo,Completada
+V0065,2025-02-04,Mouse Inalámbrico,Periféricos,1,714.91,714.91,15,107.24,97.23,704.9,Laura Martínez,Este,Veracruz,Tarjeta de Débito,Completada
+V0066,2024-10-24,Router WiFi,Redes,8,2599.68,20797.44,0,0.0,3327.59,24125.03,María López,Centro,Toluca,Tarjeta de Débito,Completada
+V0067,2025-08-19,MacBook Pro,Computadoras,5,31747.47,158737.35,10,15873.74,22858.18,165721.79,Juan Pérez,Este,Veracruz,Efectivo,Completada
+V0068,2025-06-18,iPad Air,Tablets,4,9619.95,38479.8,5,1923.99,5848.93,42404.74,Miguel Hernández,Sur,Mérida,Tarjeta de Débito,Completada
+V0069,2025-06-14,Disco Duro 1TB,Almacenamiento,6,1255.04,7530.24,10,753.02,1084.36,7861.58,Ana García,Este,Veracruz,Tarjeta de Crédito,Pendiente
+V0070,2025-05-14,Tablet Samsung,Tablets,9,9477.03,85293.27,10,8529.33,12282.23,89046.17,Juan Pérez,Norte,Tijuana,Transferencia,Completada
+V0071,2025-07-16,iPhone 14,Teléfonos,5,16602.89,83014.45,0,0.0,13282.31,96296.76,Laura Martínez,Sur,Mérida,Tarjeta de Crédito,Pendiente
+V0072,2025-03-26,iPhone 14,Teléfonos,5,19130.93,95654.65,5,4782.73,14539.51,105411.43,Diego Torres,Norte,Saltillo,Tarjeta de Débito,Completada
+V0073,2025-04-07,Teclado Mecánico,Periféricos,6,1627.43,9764.58,0,0.0,1562.33,11326.91,Pedro Sánchez,Oeste,Puerto Vallarta,Tarjeta de Débito,Completada
+V0074,2025-03-02,Teclado Mecánico,Periféricos,1,1319.75,1319.75,0,0.0,211.16,1530.91,Sofía Ruiz,Oeste,Guadalajara,Transferencia,Completada
+V0075,2025-07-13,Router WiFi,Redes,1,2105.47,2105.47,0,0.0,336.88,2442.35,Carlos Rodríguez,Oeste,Puerto Vallarta,Tarjeta de Crédito,Completada
+V0076,2025-05-25,Cargador Inalámbrico,Accesorios,7,811.78,5682.46,0,0.0,909.19,6591.65,Juan Pérez,Sur,Cancún,Tarjeta de Crédito,Completada
+V0077,2024-10-22,Webcam Logitech,Periféricos,1,1061.79,1061.79,10,106.18,152.9,1108.51,María López,Sur,Cancún,Transferencia,Completada
+V0078,2025-08-08,Cable HDMI,Accesorios,5,148.71,743.5500000000001,0,0.0,118.97,862.52,Carlos Rodríguez,Sur,Tuxtla,Tarjeta de Débito,Completada
+V0079,2025-08-15,Cable HDMI,Accesorios,6,135.02,810.1200000000001,0,0.0,129.62,939.74,Ana García,Centro,Cuernavaca,Tarjeta de Crédito,Completada
+V0080,2025-01-06,Disco Duro 1TB,Almacenamiento,8,1279.23,10233.84,0,0.0,1637.41,11871.25,Carmen Jiménez,Oeste,Colima,Transferencia,Completada
+V0081,2025-02-05,Memoria USB 64GB,Almacenamiento,3,283.19,849.5699999999999,0,0.0,135.93,985.5,Carlos Rodríguez,Norte,Monterrey,Efectivo,Completada
+V0082,2025-01-25,Memoria USB 64GB,Almacenamiento,10,350.24,3502.4,5,175.12,532.36,3859.64,Carlos Rodríguez,Norte,Saltillo,Tarjeta de Crédito,Completada
+V0083,2024-10-16,Laptop Dell XPS,Computadoras,8,28162.66,225301.28,5,11265.06,34245.8,248282.02,Carlos Rodríguez,Norte,Chihuahua,Tarjeta de Crédito,Completada
+V0084,2025-05-10,Auriculares Sony,Audio,3,3445.58,10336.74,10,1033.67,1488.49,10791.56,Sofía Ruiz,Sur,Mérida,Transferencia,Completada
+V0085,2025-07-25,Parlantes Bluetooth,Audio,4,1693.02,6772.08,10,677.21,975.18,7070.05,Pedro Sánchez,Norte,Monterrey,Tarjeta de Débito,Pendiente
+V0086,2024-09-26,Router WiFi,Redes,4,2271.31,9085.24,0,0.0,1453.64,10538.88,Pedro Sánchez,Sur,Mérida,Tarjeta de Crédito,Completada
+V0087,2025-04-29,Teclado Mecánico,Periféricos,5,1289.34,6446.7,5,322.34,979.9,7104.26,Miguel Hernández,Norte,Chihuahua,Tarjeta de Crédito,Completada
+V0088,2024-09-25,iPad Air,Tablets,1,11912.41,11912.41,0,0.0,1905.99,13818.4,Ana García,Norte,Chihuahua,Tarjeta de Crédito,Completada
+V0089,2025-01-15,Webcam Logitech,Periféricos,4,885.57,3542.28,5,177.11,538.43,3903.6,Ana García,Este,Veracruz,Tarjeta de Crédito,Completada
+V0090,2025-01-26,Laptop Dell XPS,Computadoras,3,24611.61,73834.83,15,11075.22,10041.54,72801.15,María López,Oeste,Guadalajara,Transferencia,Completada
+V0091,2025-08-02,Cámara Canon,Fotografía,1,16486.25,16486.25,0,0.0,2637.8,19124.05,Laura Martínez,Norte,Chihuahua,Efectivo,Completada
+V0092,2025-02-12,Impresora HP,Oficina,3,2178.51,6535.530000000001,0,0.0,1045.68,7581.21,Sofía Ruiz,Norte,Tijuana,Tarjeta de Débito,Pendiente
+V0093,2025-09-17,Disco Duro 1TB,Almacenamiento,2,1158.34,2316.68,5,115.83,352.14,2552.99,Laura Martínez,Este,Coatzacoalcos,Efectivo,Completada
+V0094,2025-08-09,Parlantes Bluetooth,Audio,3,1702.84,5108.5199999999995,0,0.0,817.36,5925.88,Carmen Jiménez,Este,Xalapa,Tarjeta de Crédito,Completada
+V0095,2024-11-25,Cable HDMI,Accesorios,3,121.61,364.83,10,36.48,52.54,380.89,Carmen Jiménez,Este,Veracruz,Efectivo,Cancelada
+V0096,2025-08-14,Cámara Canon,Fotografía,1,14502.85,14502.85,0,0.0,2320.46,16823.31,Laura Martínez,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0097,2025-05-29,Smartwatch Apple,Wearables,1,9158.1,9158.1,5,457.91,1392.03,10092.22,Carlos Rodríguez,Centro,Puebla,Tarjeta de Débito,Completada
+V0098,2024-09-22,Parlantes Bluetooth,Audio,2,1642.57,3285.14,0,0.0,525.62,3810.76,Diego Torres,Oeste,Colima,Tarjeta de Débito,Completada
+V0099,2024-11-29,Webcam Logitech,Periféricos,2,1172.83,2345.66,0,0.0,375.31,2720.97,Pedro Sánchez,Oeste,Puerto Vallarta,Tarjeta de Débito,Completada
+V0100,2025-06-16,Cámara Canon,Fotografía,5,15336.91,76684.55,0,0.0,12269.53,88954.08,Miguel Hernández,Sur,Tuxtla,Efectivo,Completada
+V0101,2025-08-07,Tablet Samsung,Tablets,3,7052.82,21158.46,5,1057.92,3216.09,23316.63,Ana García,Este,Xalapa,Tarjeta de Crédito,Completada
+V0102,2025-04-01,Samsung Galaxy S23,Teléfonos,1,15102.37,15102.37,5,755.12,2295.56,16642.81,Sofía Ruiz,Oeste,Colima,Transferencia,Completada
+V0103,2025-07-31,Memoria USB 64GB,Almacenamiento,3,350.58,1051.74,10,105.17,151.45,1098.02,Diego Torres,Oeste,Puerto Vallarta,Tarjeta de Débito,Completada
+V0104,2025-06-28,Samsung Galaxy S23,Teléfonos,9,14264.01,128376.09,15,19256.41,17459.15,126578.83,María López,Este,Veracruz,Tarjeta de Crédito,Completada
+V0105,2024-12-06,Auriculares Sony,Audio,3,3154.39,9463.17,0,0.0,1514.11,10977.28,Pedro Sánchez,Oeste,Morelia,Efectivo,Completada
+V0106,2025-08-28,Parlantes Bluetooth,Audio,2,1658.85,3317.7,0,0.0,530.83,3848.53,María López,Este,Coatzacoalcos,Tarjeta de Débito,Completada
+V0107,2025-01-07,Cargador Inalámbrico,Accesorios,1,874.99,874.99,15,131.25,119.0,862.74,Ana García,Oeste,Colima,Efectivo,Completada
+V0108,2024-11-28,Router WiFi,Redes,4,1825.45,7301.8,0,0.0,1168.29,8470.09,Sofía Ruiz,Norte,Monterrey,Tarjeta de Crédito,Completada
+V0109,2025-05-06,Webcam Logitech,Periféricos,1,951.39,951.39,0,0.0,152.22,1103.61,Laura Martínez,Oeste,Colima,Tarjeta de Débito,Completada
+V0110,2024-11-10,"Monitor LG 27""",Periféricos,2,4880.44,9760.88,5,488.04,1483.65,10756.49,Ana García,Sur,Cancún,Efectivo,Completada
+V0111,2025-02-10,Parlantes Bluetooth,Audio,1,1681.3,1681.3,0,0.0,269.01,1950.31,Carlos Rodríguez,Oeste,Guadalajara,Efectivo,Pendiente
+V0112,2025-07-05,Teclado Mecánico,Periféricos,6,1530.77,9184.619999999999,5,459.23,1396.06,10121.45,Diego Torres,Sur,Cancún,Tarjeta de Crédito,Completada
+V0113,2025-04-19,Smartwatch Apple,Wearables,1,10572.27,10572.27,0,0.0,1691.56,12263.83,Carmen Jiménez,Este,Xalapa,Transferencia,Pendiente
+V0114,2025-07-31,Auriculares Sony,Audio,5,3571.51,17857.550000000003,5,892.88,2714.35,19679.02,Carmen Jiménez,Este,Coatzacoalcos,Transferencia,Completada
+V0115,2025-02-17,"Monitor LG 27""",Periféricos,3,4758.16,14274.48,5,713.72,2169.72,15730.48,Carmen Jiménez,Oeste,Puerto Vallarta,Efectivo,Completada
+V0116,2025-06-12,Parlantes Bluetooth,Audio,4,1798.12,7192.48,0,0.0,1150.8,8343.28,Carmen Jiménez,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0117,2025-05-12,Samsung Galaxy S23,Teléfonos,2,19117.4,38234.8,0,0.0,6117.57,44352.37,María López,Centro,Cuernavaca,Transferencia,Completada
+V0118,2025-05-31,Tablet Samsung,Tablets,1,8606.96,8606.96,5,430.35,1308.26,9484.87,Laura Martínez,Oeste,Guadalajara,Efectivo,Completada
+V0119,2024-10-28,Samsung Galaxy S23,Teléfonos,2,14211.32,28422.64,10,2842.26,4092.86,29673.24,Carmen Jiménez,Sur,Mérida,Transferencia,Completada
+V0120,2025-04-18,Tablet Samsung,Tablets,3,7958.97,23876.91,0,0.0,3820.31,27697.22,Diego Torres,Oeste,Colima,Tarjeta de Débito,Completada
+V0121,2025-03-17,Cable HDMI,Accesorios,4,160.8,643.2,20,128.64,82.33,596.89,Carlos Rodríguez,Oeste,Colima,Efectivo,Completada
+V0122,2025-03-10,Router WiFi,Redes,5,2555.37,12776.849999999999,0,0.0,2044.3,14821.15,Miguel Hernández,Este,Veracruz,Tarjeta de Débito,Completada
+V0123,2025-02-12,Laptop Dell XPS,Computadoras,2,23751.91,47503.82,0,0.0,7600.61,55104.43,Laura Martínez,Sur,Villahermosa,Tarjeta de Crédito,Completada
+V0124,2025-01-17,"Monitor LG 27""",Periféricos,1,4254.53,4254.53,5,212.73,646.69,4688.49,Miguel Hernández,Norte,Monterrey,Efectivo,Completada
+V0125,2025-06-04,Parlantes Bluetooth,Audio,2,1447.63,2895.26,10,289.53,416.92,3022.65,Miguel Hernández,Norte,Saltillo,Tarjeta de Débito,Completada
+V0126,2025-08-10,Memoria USB 64GB,Almacenamiento,1,294.48,294.48,20,58.9,37.69,273.27,María López,Este,Veracruz,Efectivo,Completada
+V0127,2025-04-23,Disco Duro 1TB,Almacenamiento,1,1354.1,1354.1,5,67.7,205.82,1492.22,Carlos Rodríguez,Oeste,Colima,Tarjeta de Débito,Completada
+V0128,2025-03-06,Cargador Inalámbrico,Accesorios,1,960.13,960.13,5,48.01,145.94,1058.06,Sofía Ruiz,Este,Veracruz,Transferencia,Completada
+V0129,2025-05-16,Smartwatch Apple,Wearables,1,8231.12,8231.12,0,0.0,1316.98,9548.1,Ana García,Norte,Tijuana,Transferencia,Completada
+V0130,2024-12-12,MacBook Pro,Computadoras,1,33824.62,33824.62,0,0.0,5411.94,39236.56,Laura Martínez,Sur,Cancún,Efectivo,Completada
+V0131,2025-07-29,Auriculares Sony,Audio,6,3527.35,21164.1,20,4232.82,2709.0,19640.28,Juan Pérez,Centro,Toluca,Efectivo,Completada
+V0132,2025-01-13,Cable HDMI,Accesorios,1,164.59,164.59,0,0.0,26.33,190.92,María López,Oeste,Morelia,Tarjeta de Débito,Completada
+V0133,2024-11-23,Mouse Inalámbrico,Periféricos,3,671.35,2014.0500000000002,5,100.7,306.14,2219.49,María López,Oeste,Puerto Vallarta,Tarjeta de Crédito,Cancelada
+V0134,2025-01-24,Impresora HP,Oficina,1,2350.03,2350.03,0,0.0,376.0,2726.03,Carmen Jiménez,Centro,Toluca,Tarjeta de Débito,Pendiente
+V0135,2025-03-08,Teclado Mecánico,Periféricos,4,1701.07,6804.28,5,340.21,1034.25,7498.32,Juan Pérez,Centro,Toluca,Tarjeta de Débito,Pendiente
+V0136,2025-02-23,MacBook Pro,Computadoras,3,40791.41,122374.23000000001,10,12237.42,17621.89,127758.7,Laura Martínez,Centro,Puebla,Transferencia,Completada
+V0137,2025-03-24,Tablet Samsung,Tablets,2,7822.69,15645.38,0,0.0,2503.26,18148.64,Carmen Jiménez,Oeste,Colima,Transferencia,Completada
+V0138,2025-05-17,Mouse Inalámbrico,Periféricos,1,651.6,651.6,0,0.0,104.26,755.86,Ana García,Este,Tampico,Efectivo,Completada
+V0139,2024-12-03,Webcam Logitech,Periféricos,1,993.1,993.1,0,0.0,158.9,1152.0,Pedro Sánchez,Norte,Chihuahua,Tarjeta de Débito,Completada
+V0140,2025-04-30,MacBook Pro,Computadoras,4,31399.63,125598.52,20,25119.7,16076.61,116555.43,Carlos Rodríguez,Sur,Villahermosa,Tarjeta de Crédito,Pendiente
+V0141,2025-02-14,Parlantes Bluetooth,Audio,2,1562.99,3125.98,0,0.0,500.16,3626.14,Juan Pérez,Norte,Tijuana,Efectivo,Completada
+V0142,2025-09-14,Cable HDMI,Accesorios,1,151.37,151.37,15,22.71,20.59,149.25,Sofía Ruiz,Norte,Tijuana,Tarjeta de Débito,Completada
+V0143,2024-12-29,Laptop Dell XPS,Computadoras,1,22474.16,22474.16,10,2247.42,3236.28,23463.02,Sofía Ruiz,Oeste,Morelia,Tarjeta de Crédito,Completada
+V0144,2024-10-08,Router WiFi,Redes,1,2031.42,2031.42,5,101.57,308.78,2238.63,Ana García,Sur,Cancún,Tarjeta de Crédito,Completada
+V0145,2024-10-28,Disco Duro 1TB,Almacenamiento,6,1209.49,7256.9400000000005,0,0.0,1161.11,8418.05,Pedro Sánchez,Sur,Tuxtla,Tarjeta de Crédito,Completada
+V0146,2025-05-26,Auriculares Sony,Audio,7,3623.98,25367.86,10,2536.79,3652.97,26484.04,Carmen Jiménez,Este,Xalapa,Tarjeta de Crédito,Completada
+V0147,2024-10-24,iPad Air,Tablets,2,10739.72,21479.44,5,1073.97,3264.88,23670.35,Ana García,Sur,Villahermosa,Tarjeta de Crédito,Completada
+V0148,2025-08-21,Disco Duro 1TB,Almacenamiento,3,1164.06,3492.18,0,0.0,558.75,4050.93,Laura Martínez,Oeste,Morelia,Tarjeta de Crédito,Completada
+V0149,2025-01-03,Memoria USB 64GB,Almacenamiento,1,311.63,311.63,0,0.0,49.86,361.49,Carmen Jiménez,Sur,Tuxtla,Tarjeta de Débito,Completada
+V0150,2024-10-16,iPhone 14,Teléfonos,3,21080.9,63242.700000000004,5,3162.14,9612.89,69693.45,Carlos Rodríguez,Centro,Puebla,Tarjeta de Crédito,Completada
+V0151,2025-07-19,Mouse Inalámbrico,Periféricos,1,728.58,728.58,0,0.0,116.57,845.15,Carlos Rodríguez,Sur,Cancún,Tarjeta de Crédito,Completada
+V0152,2025-01-25,Parlantes Bluetooth,Audio,1,2140.08,2140.08,0,0.0,342.41,2482.49,Pedro Sánchez,Norte,Monterrey,Tarjeta de Crédito,Completada
+V0153,2024-09-21,Auriculares Sony,Audio,5,2829.97,14149.849999999999,10,1414.98,2037.58,14772.45,María López,Oeste,Puerto Vallarta,Efectivo,Completada
+V0154,2025-01-04,Webcam Logitech,Periféricos,1,1312.44,1312.44,15,196.87,178.49,1294.06,Pedro Sánchez,Este,Veracruz,Tarjeta de Crédito,Completada
+V0155,2025-05-25,Memoria USB 64GB,Almacenamiento,2,386.4,772.8,0,0.0,123.65,896.45,Laura Martínez,Centro,Ciudad de México,Tarjeta de Crédito,Cancelada
+V0156,2024-10-07,Mouse Inalámbrico,Periféricos,7,655.33,4587.31,0,0.0,733.97,5321.28,Laura Martínez,Sur,Villahermosa,Tarjeta de Crédito,Completada
+V0157,2025-07-09,Router WiFi,Redes,1,1953.63,1953.63,15,293.04,265.69,1926.28,Carmen Jiménez,Centro,Cuernavaca,Transferencia,Completada
+V0158,2025-01-10,MacBook Pro,Computadoras,2,30984.4,61968.8,0,0.0,9915.01,71883.81,Pedro Sánchez,Norte,Monterrey,Efectivo,Completada
+V0159,2025-07-28,Smartwatch Apple,Wearables,5,7436.34,37181.7,0,0.0,5949.07,43130.77,Laura Martínez,Norte,Saltillo,Efectivo,Completada
+V0160,2024-11-09,Webcam Logitech,Periféricos,5,1123.69,5618.450000000001,5,280.92,854.0,6191.53,Laura Martínez,Este,Coatzacoalcos,Tarjeta de Crédito,Completada
+V0161,2025-05-17,Cámara Canon,Fotografía,2,17413.06,34826.12,0,0.0,5572.18,40398.3,Carmen Jiménez,Norte,Saltillo,Tarjeta de Crédito,Completada
+V0162,2025-08-27,Cable HDMI,Accesorios,4,145.12,580.48,5,29.02,88.23,639.69,Miguel Hernández,Norte,Monterrey,Tarjeta de Crédito,Completada
+V0163,2025-01-14,Samsung Galaxy S23,Teléfonos,1,16717.82,16717.82,10,1671.78,2407.37,17453.41,Laura Martínez,Norte,Chihuahua,Tarjeta de Crédito,Completada
+V0164,2025-07-02,Memoria USB 64GB,Almacenamiento,2,299.71,599.42,10,59.94,86.32,625.8,Laura Martínez,Norte,Chihuahua,Efectivo,Completada
+V0165,2024-12-12,Teclado Mecánico,Periféricos,3,1606.71,4820.13,0,0.0,771.22,5591.35,Carmen Jiménez,Este,Tampico,Efectivo,Completada
+V0166,2024-12-16,Parlantes Bluetooth,Audio,7,1541.72,10792.04,0,0.0,1726.73,12518.77,Diego Torres,Este,Xalapa,Tarjeta de Débito,Completada
+V0167,2025-07-06,iPad Air,Tablets,2,12205.6,24411.2,5,1220.56,3710.5,26901.14,Pedro Sánchez,Norte,Monterrey,Tarjeta de Débito,Completada
+V0168,2025-05-21,Auriculares Sony,Audio,3,3011.35,9034.05,15,1355.11,1228.63,8907.57,Laura Martínez,Sur,Cancún,Tarjeta de Crédito,Completada
+V0169,2025-09-03,Cámara Canon,Fotografía,2,13485.17,26970.34,0,0.0,4315.25,31285.59,Miguel Hernández,Oeste,Guadalajara,Tarjeta de Crédito,Pendiente
+V0170,2025-06-14,iPad Air,Tablets,1,10222.14,10222.14,0,0.0,1635.54,11857.68,Diego Torres,Norte,Tijuana,Tarjeta de Crédito,Pendiente
+V0171,2025-01-06,Tablet Samsung,Tablets,10,9307.1,93071.0,0,0.0,14891.36,107962.36,Diego Torres,Sur,Mérida,Tarjeta de Crédito,Completada
+V0172,2025-01-27,Samsung Galaxy S23,Teléfonos,10,17155.37,171553.69999999998,0,0.0,27448.59,199002.29,Laura Martínez,Norte,Chihuahua,Transferencia,Completada
+V0173,2024-09-27,"Monitor LG 27""",Periféricos,4,4949.18,19796.72,0,0.0,3167.48,22964.2,Ana García,Este,Tampico,Transferencia,Cancelada
+V0174,2024-12-26,Smartwatch Apple,Wearables,2,10295.29,20590.58,0,0.0,3294.49,23885.07,Diego Torres,Centro,Toluca,Transferencia,Completada
+V0175,2025-08-14,Impresora HP,Oficina,5,2537.8,12689.0,15,1903.35,1725.7,12511.35,Diego Torres,Este,Tampico,Efectivo,Completada
+V0176,2024-09-19,Tablet Samsung,Tablets,5,7268.15,36340.75,0,0.0,5814.52,42155.27,Sofía Ruiz,Este,Veracruz,Efectivo,Completada
+V0177,2025-08-30,Memoria USB 64GB,Almacenamiento,2,364.84,729.68,0,0.0,116.75,846.43,Laura Martínez,Oeste,Puerto Vallarta,Tarjeta de Débito,Completada
+V0178,2024-11-18,Teclado Mecánico,Periféricos,4,1393.99,5575.96,0,0.0,892.15,6468.11,Pedro Sánchez,Oeste,Guadalajara,Efectivo,Cancelada
+V0179,2024-09-26,Cable HDMI,Accesorios,2,166.24,332.48,15,49.87,45.22,327.83,Juan Pérez,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0180,2025-06-02,MacBook Pro,Computadoras,4,34210.61,136842.44,0,0.0,21894.79,158737.23,Miguel Hernández,Este,Xalapa,Transferencia,Completada
+V0181,2025-01-25,Router WiFi,Redes,5,2490.99,12454.949999999999,0,0.0,1992.79,14447.74,Laura Martínez,Sur,Villahermosa,Tarjeta de Débito,Completada
+V0182,2025-07-25,Samsung Galaxy S23,Teléfonos,2,16268.98,32537.96,0,0.0,5206.07,37744.03,Ana García,Sur,Tuxtla,Tarjeta de Crédito,Completada
+V0183,2025-08-03,iPad Air,Tablets,5,9852.07,49260.35,10,4926.03,7093.49,51427.81,Juan Pérez,Sur,Tuxtla,Transferencia,Completada
+V0184,2024-11-06,Laptop Dell XPS,Computadoras,6,27701.2,166207.2,15,24931.08,22604.18,163880.3,Juan Pérez,Centro,Ciudad de México,Tarjeta de Débito,Completada
+V0185,2025-06-11,Laptop Dell XPS,Computadoras,3,27464.57,82393.70999999999,0,0.0,13182.99,95576.7,Carmen Jiménez,Centro,Cuernavaca,Tarjeta de Crédito,Completada
+V0186,2025-05-31,Auriculares Sony,Audio,4,3205.29,12821.16,0,0.0,2051.39,14872.55,Diego Torres,Oeste,Colima,Transferencia,Completada
+V0187,2024-11-12,"Monitor LG 27""",Periféricos,4,3951.08,15804.32,0,0.0,2528.69,18333.01,Pedro Sánchez,Centro,Puebla,Efectivo,Completada
+V0188,2025-07-07,Webcam Logitech,Periféricos,1,904.17,904.17,0,0.0,144.67,1048.84,Juan Pérez,Sur,Cancún,Transferencia,Completada
+V0189,2025-05-23,Cámara Canon,Fotografía,9,17676.71,159090.38999999998,0,0.0,25454.46,184544.85,María López,Centro,Cuernavaca,Tarjeta de Débito,Completada
+V0190,2025-01-26,"Monitor LG 27""",Periféricos,10,5217.47,52174.700000000004,15,7826.2,7095.76,51444.26,Diego Torres,Centro,Toluca,Tarjeta de Débito,Completada
+V0191,2025-01-17,Impresora HP,Oficina,4,2669.29,10677.16,0,0.0,1708.35,12385.51,Sofía Ruiz,Este,Veracruz,Tarjeta de Débito,Pendiente
+V0192,2025-02-17,Disco Duro 1TB,Almacenamiento,6,1152.73,6916.38,0,0.0,1106.62,8023.0,Carmen Jiménez,Sur,Mérida,Efectivo,Completada
+V0193,2024-11-28,iPad Air,Tablets,4,11740.88,46963.52,0,0.0,7514.16,54477.68,Laura Martínez,Oeste,Colima,Tarjeta de Crédito,Completada
+V0194,2024-10-02,Tablet Samsung,Tablets,3,6876.89,20630.670000000002,20,4126.13,2640.73,19145.27,Carlos Rodríguez,Este,Veracruz,Efectivo,Completada
+V0195,2025-08-02,Tablet Samsung,Tablets,1,8154.09,8154.09,0,0.0,1304.65,9458.74,Diego Torres,Centro,Toluca,Transferencia,Completada
+V0196,2025-05-25,Webcam Logitech,Periféricos,3,1217.15,3651.4500000000003,0,0.0,584.23,4235.68,María López,Este,Coatzacoalcos,Tarjeta de Débito,Pendiente
+V0197,2024-12-23,Router WiFi,Redes,3,2188.89,6566.67,0,0.0,1050.67,7617.34,Juan Pérez,Sur,Tuxtla,Efectivo,Completada
+V0198,2024-10-06,Mouse Inalámbrico,Periféricos,4,904.53,3618.12,10,361.81,521.01,3777.32,Pedro Sánchez,Centro,Puebla,Transferencia,Completada
+V0199,2025-02-01,Cámara Canon,Fotografía,3,15532.23,46596.69,0,0.0,7455.47,54052.16,Carmen Jiménez,Norte,Monterrey,Tarjeta de Débito,Completada
+V0200,2025-06-07,Mouse Inalámbrico,Periféricos,5,933.0,4665.0,0,0.0,746.4,5411.4,María López,Este,Coatzacoalcos,Tarjeta de Débito,Cancelada
+V0201,2025-06-25,iPhone 14,Teléfonos,1,18233.37,18233.37,5,911.67,2771.47,20093.17,Diego Torres,Centro,Cuernavaca,Tarjeta de Crédito,Pendiente
+V0202,2025-01-13,Tablet Samsung,Tablets,4,7848.04,31392.16,0,0.0,5022.75,36414.91,Carlos Rodríguez,Norte,Monterrey,Efectivo,Pendiente
+V0203,2024-11-22,Cargador Inalámbrico,Accesorios,1,950.57,950.57,5,47.53,144.49,1047.53,Juan Pérez,Este,Veracruz,Tarjeta de Débito,Completada
+V0204,2025-06-11,Cargador Inalámbrico,Accesorios,3,993.87,2981.61,0,0.0,477.06,3458.67,Miguel Hernández,Oeste,Puerto Vallarta,Efectivo,Completada
+V0205,2025-09-11,Webcam Logitech,Periféricos,2,909.35,1818.7,15,272.81,247.34,1793.23,Juan Pérez,Este,Veracruz,Tarjeta de Débito,Completada
+V0206,2024-10-30,Cable HDMI,Accesorios,2,133.97,267.94,0,0.0,42.87,310.81,Carmen Jiménez,Norte,Chihuahua,Efectivo,Completada
+V0207,2025-02-05,iPhone 14,Teléfonos,2,18644.28,37288.56,5,1864.43,5667.86,41091.99,Carlos Rodríguez,Oeste,Puerto Vallarta,Tarjeta de Crédito,Completada
+V0208,2024-11-30,Mouse Inalámbrico,Periféricos,1,734.9,734.9,5,36.74,111.71,809.87,Laura Martínez,Norte,Chihuahua,Tarjeta de Débito,Completada
+V0209,2025-09-16,Router WiFi,Redes,3,2165.11,6495.33,0,0.0,1039.25,7534.58,Diego Torres,Oeste,Guadalajara,Efectivo,Completada
+V0210,2025-01-22,Cargador Inalámbrico,Accesorios,3,930.99,2792.9700000000003,0,0.0,446.88,3239.85,Ana García,Norte,Monterrey,Efectivo,Completada
+V0211,2025-04-13,Memoria USB 64GB,Almacenamiento,4,416.28,1665.12,0,0.0,266.42,1931.54,Laura Martínez,Norte,Tijuana,Tarjeta de Crédito,Pendiente
+V0212,2024-12-18,Webcam Logitech,Periféricos,3,1239.25,3717.75,0,0.0,594.84,4312.59,Juan Pérez,Centro,Toluca,Transferencia,Pendiente
+V0213,2025-07-10,Disco Duro 1TB,Almacenamiento,5,977.46,4887.3,15,733.1,664.67,4818.87,Pedro Sánchez,Este,Veracruz,Tarjeta de Crédito,Pendiente
+V0214,2025-02-26,Smartwatch Apple,Wearables,2,10450.73,20901.46,15,3135.22,2842.6,20608.84,Sofía Ruiz,Sur,Villahermosa,Transferencia,Completada
+V0215,2025-09-05,Parlantes Bluetooth,Audio,1,1990.78,1990.78,15,298.62,270.75,1962.91,Miguel Hernández,Norte,Chihuahua,Tarjeta de Débito,Completada
+V0216,2025-04-15,Cargador Inalámbrico,Accesorios,3,961.31,2883.93,0,0.0,461.43,3345.36,María López,Sur,Tuxtla,Tarjeta de Crédito,Completada
+V0217,2025-09-15,iPhone 14,Teléfonos,1,15268.16,15268.16,0,0.0,2442.91,17711.07,Miguel Hernández,Este,Veracruz,Tarjeta de Crédito,Completada
+V0218,2025-08-31,Tablet Samsung,Tablets,1,9540.28,9540.28,10,954.03,1373.8,9960.05,Laura Martínez,Este,Xalapa,Tarjeta de Crédito,Completada
+V0219,2025-07-10,Disco Duro 1TB,Almacenamiento,1,1330.18,1330.18,0,0.0,212.83,1543.01,Carmen Jiménez,Sur,Mérida,Tarjeta de Crédito,Cancelada
+V0220,2025-08-30,Webcam Logitech,Periféricos,6,1083.09,6498.539999999999,5,324.93,987.78,7161.39,Carmen Jiménez,Centro,Puebla,Efectivo,Pendiente
+V0221,2024-12-23,Router WiFi,Redes,3,2339.64,7018.92,0,0.0,1123.03,8141.95,Pedro Sánchez,Este,Veracruz,Tarjeta de Crédito,Completada
+V0222,2025-07-15,"Monitor LG 27""",Periféricos,5,4361.55,21807.75,5,1090.39,3314.78,24032.14,Sofía Ruiz,Centro,Ciudad de México,Tarjeta de Débito,Completada
+V0223,2025-01-06,Laptop Dell XPS,Computadoras,1,24585.8,24585.8,10,2458.58,3540.36,25667.58,Laura Martínez,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0224,2025-01-01,"Monitor LG 27""",Periféricos,1,3681.99,3681.99,5,184.1,559.66,4057.55,María López,Sur,Tuxtla,Tarjeta de Débito,Completada
+V0225,2024-10-24,Mouse Inalámbrico,Periféricos,4,745.46,2981.84,10,298.18,429.39,3113.05,Miguel Hernández,Centro,Cuernavaca,Tarjeta de Crédito,Completada
+V0226,2024-09-22,Laptop Dell XPS,Computadoras,5,22303.51,111517.54999999999,20,22303.51,14274.25,103488.29,Carlos Rodríguez,Norte,Saltillo,Efectivo,Completada
+V0227,2025-04-26,Tablet Samsung,Tablets,2,6609.13,13218.26,10,1321.83,1903.43,13799.86,Juan Pérez,Sur,Mérida,Efectivo,Completada
+V0228,2025-06-02,Memoria USB 64GB,Almacenamiento,4,403.99,1615.96,15,242.39,219.77,1593.34,Laura Martínez,Sur,Cancún,Tarjeta de Crédito,Cancelada
+V0229,2025-07-03,Memoria USB 64GB,Almacenamiento,4,401.63,1606.52,0,0.0,257.04,1863.56,Laura Martínez,Norte,Monterrey,Tarjeta de Crédito,Completada
+V0230,2024-12-08,Samsung Galaxy S23,Teléfonos,1,15669.35,15669.35,0,0.0,2507.1,18176.45,Miguel Hernández,Norte,Monterrey,Tarjeta de Débito,Pendiente
+V0231,2024-09-19,iPad Air,Tablets,8,11769.79,94158.32,15,14123.75,12805.53,92840.1,Carmen Jiménez,Centro,Ciudad de México,Tarjeta de Débito,Completada
+V0232,2024-09-29,Laptop Dell XPS,Computadoras,6,27449.83,164698.98,0,0.0,26351.84,191050.82,María López,Centro,Ciudad de México,Efectivo,Completada
+V0233,2025-09-17,Teclado Mecánico,Periféricos,1,1449.45,1449.45,0,0.0,231.91,1681.36,Juan Pérez,Centro,Toluca,Tarjeta de Débito,Completada
+V0234,2025-05-06,Cargador Inalámbrico,Accesorios,3,898.87,2696.61,0,0.0,431.46,3128.07,Carlos Rodríguez,Este,Veracruz,Tarjeta de Crédito,Completada
+V0235,2025-02-02,Tablet Samsung,Tablets,1,7291.7,7291.7,5,364.59,1108.34,8035.45,Pedro Sánchez,Este,Coatzacoalcos,Efectivo,Completada
+V0236,2025-05-20,Disco Duro 1TB,Almacenamiento,2,1068.66,2137.32,0,0.0,341.97,2479.29,Carlos Rodríguez,Oeste,Guadalajara,Tarjeta de Débito,Completada
+V0237,2025-01-12,Tablet Samsung,Tablets,1,7612.47,7612.47,0,0.0,1218.0,8830.47,Pedro Sánchez,Centro,Toluca,Transferencia,Cancelada
+V0238,2024-11-27,MacBook Pro,Computadoras,5,38097.85,190489.25,15,28573.39,25906.54,187822.4,María López,Norte,Monterrey,Tarjeta de Débito,Cancelada
+V0239,2024-11-28,Mouse Inalámbrico,Periféricos,3,667.22,2001.66,5,100.08,304.25,2205.83,Pedro Sánchez,Oeste,Colima,Tarjeta de Crédito,Completada
+V0240,2024-12-02,Memoria USB 64GB,Almacenamiento,4,390.8,1563.2,0,0.0,250.11,1813.31,Ana García,Centro,Ciudad de México,Tarjeta de Débito,Pendiente
+V0241,2025-08-11,Teclado Mecánico,Periféricos,6,1543.38,9260.28,0,0.0,1481.64,10741.92,Pedro Sánchez,Este,Veracruz,Tarjeta de Crédito,Completada
+V0242,2025-02-19,Teclado Mecánico,Periféricos,7,1259.28,8814.96,15,1322.24,1198.84,8691.56,Miguel Hernández,Este,Tampico,Tarjeta de Crédito,Completada
+V0243,2025-04-09,Parlantes Bluetooth,Audio,8,2107.68,16861.44,20,3372.29,2158.26,15647.41,Laura Martínez,Norte,Monterrey,Tarjeta de Crédito,Completada
+V0244,2025-05-20,iPad Air,Tablets,4,12531.06,50124.24,15,7518.64,6816.9,49422.5,Miguel Hernández,Norte,Tijuana,Efectivo,Pendiente
+V0245,2024-10-06,Auriculares Sony,Audio,5,3730.52,18652.6,0,0.0,2984.42,21637.02,Ana García,Centro,Toluca,Efectivo,Completada
+V0246,2025-08-20,Samsung Galaxy S23,Teléfonos,2,18661.3,37322.6,0,0.0,5971.62,43294.22,Ana García,Sur,Cancún,Transferencia,Completada
+V0247,2025-08-07,Cargador Inalámbrico,Accesorios,4,1052.08,4208.32,15,631.25,572.33,4149.4,Ana García,Este,Tampico,Tarjeta de Débito,Completada
+V0248,2025-05-22,Tablet Samsung,Tablets,5,8066.26,40331.3,10,4033.13,5807.71,42105.88,María López,Centro,Puebla,Tarjeta de Crédito,Completada
+V0249,2025-07-08,"Monitor LG 27""",Periféricos,1,5173.16,5173.16,0,0.0,827.71,6000.87,Diego Torres,Oeste,Morelia,Tarjeta de Crédito,Completada
+V0250,2024-12-29,MacBook Pro,Computadoras,1,36413.49,36413.49,15,5462.02,4952.24,35903.71,Ana García,Sur,Tuxtla,Efectivo,Completada
+V0251,2024-12-23,iPad Air,Tablets,5,13815.38,69076.9,5,3453.84,10499.69,76122.75,Laura Martínez,Este,Tampico,Tarjeta de Crédito,Pendiente
+V0252,2024-11-25,Mouse Inalámbrico,Periféricos,3,815.32,2445.96,10,244.6,352.22,2553.58,Laura Martínez,Sur,Tuxtla,Tarjeta de Crédito,Completada
+V0253,2025-03-08,Mouse Inalámbrico,Periféricos,1,843.4,843.4,10,84.34,121.45,880.51,Carmen Jiménez,Norte,Monterrey,Efectivo,Completada
+V0254,2025-07-07,Mouse Inalámbrico,Periféricos,5,918.93,4594.65,5,229.73,698.39,5063.31,Sofía Ruiz,Norte,Chihuahua,Tarjeta de Débito,Completada
+V0255,2025-08-03,iPad Air,Tablets,3,12255.44,36766.32,0,0.0,5882.61,42648.93,Miguel Hernández,Norte,Chihuahua,Tarjeta de Crédito,Completada
+V0256,2025-08-07,Cargador Inalámbrico,Accesorios,1,896.48,896.48,5,44.82,136.27,987.93,Ana García,Centro,Puebla,Tarjeta de Crédito,Completada
+V0257,2025-06-02,iPhone 14,Teléfonos,9,16816.14,151345.26,5,7567.26,23004.48,166782.48,Ana García,Centro,Ciudad de México,Transferencia,Completada
+V0258,2024-12-17,Disco Duro 1TB,Almacenamiento,2,988.17,1976.34,15,296.45,268.78,1948.67,Carmen Jiménez,Centro,Cuernavaca,Efectivo,Pendiente
+V0259,2024-11-30,Disco Duro 1TB,Almacenamiento,7,991.0,6937.0,10,693.7,998.93,7242.23,María López,Centro,Toluca,Efectivo,Pendiente
+V0260,2025-03-28,Memoria USB 64GB,Almacenamiento,8,315.22,2521.76,0,0.0,403.48,2925.24,Diego Torres,Este,Xalapa,Tarjeta de Crédito,Pendiente
+V0261,2025-09-03,Teclado Mecánico,Periféricos,2,1790.79,3581.58,0,0.0,573.05,4154.63,Sofía Ruiz,Este,Coatzacoalcos,Tarjeta de Crédito,Completada
+V0262,2024-12-08,Impresora HP,Oficina,1,2347.57,2347.57,0,0.0,375.61,2723.18,Diego Torres,Este,Coatzacoalcos,Tarjeta de Crédito,Completada
+V0263,2025-08-01,"Monitor LG 27""",Periféricos,2,3962.48,7924.96,5,396.25,1204.59,8733.3,María López,Oeste,Puerto Vallarta,Tarjeta de Crédito,Completada
+V0264,2025-09-12,Laptop Dell XPS,Computadoras,3,25838.95,77516.85,0,0.0,12402.7,89919.55,Diego Torres,Oeste,Morelia,Tarjeta de Crédito,Completada
+V0265,2025-06-20,iPad Air,Tablets,1,10533.09,10533.09,0,0.0,1685.29,12218.38,María López,Oeste,Morelia,Efectivo,Completada
+V0266,2024-12-02,MacBook Pro,Computadoras,1,32993.43,32993.43,10,3299.34,4751.05,34445.14,Diego Torres,Este,Coatzacoalcos,Tarjeta de Crédito,Completada
+V0267,2025-05-03,Impresora HP,Oficina,6,2612.3,15673.800000000001,10,1567.38,2257.03,16363.45,Pedro Sánchez,Norte,Tijuana,Tarjeta de Crédito,Completada
+V0268,2024-10-21,Auriculares Sony,Audio,1,3092.3,3092.3,0,0.0,494.77,3587.07,María López,Centro,Puebla,Tarjeta de Crédito,Completada
+V0269,2025-01-03,Impresora HP,Oficina,1,2537.98,2537.98,20,507.6,324.86,2355.24,Ana García,Norte,Chihuahua,Transferencia,Pendiente
+V0270,2025-05-28,Cable HDMI,Accesorios,3,142.02,426.06000000000006,5,21.3,64.76,469.52,María López,Este,Veracruz,Tarjeta de Crédito,Pendiente
+V0271,2025-07-25,iPad Air,Tablets,3,11205.01,33615.03,0,0.0,5378.4,38993.43,María López,Este,Coatzacoalcos,Tarjeta de Débito,Completada
+V0272,2025-01-03,Smartwatch Apple,Wearables,2,7685.85,15371.7,5,768.59,2336.5,16939.61,Juan Pérez,Norte,Monterrey,Tarjeta de Crédito,Completada
+V0273,2025-08-13,Teclado Mecánico,Periféricos,4,1781.47,7125.88,0,0.0,1140.14,8266.02,María López,Centro,Toluca,Tarjeta de Crédito,Completada
+V0274,2025-07-03,Cargador Inalámbrico,Accesorios,1,1011.51,1011.51,15,151.73,137.56,997.34,Sofía Ruiz,Norte,Tijuana,Tarjeta de Crédito,Completada
+V0275,2025-06-23,Samsung Galaxy S23,Teléfonos,1,15975.6,15975.6,0,0.0,2556.1,18531.7,Sofía Ruiz,Centro,Cuernavaca,Efectivo,Completada
+V0276,2025-02-22,Laptop Dell XPS,Computadoras,3,29282.08,87846.24,5,4392.31,13352.63,96806.56,Ana García,Oeste,Puerto Vallarta,Efectivo,Completada
+V0277,2025-05-17,Laptop Dell XPS,Computadoras,2,20251.17,40502.34,0,0.0,6480.37,46982.71,Sofía Ruiz,Norte,Chihuahua,Tarjeta de Crédito,Completada
+V0278,2024-10-05,Disco Duro 1TB,Almacenamiento,1,1106.44,1106.44,10,110.64,159.33,1155.13,Ana García,Este,Veracruz,Transferencia,Cancelada
+V0279,2025-01-03,Cable HDMI,Accesorios,2,157.71,315.42,0,0.0,50.47,365.89,Carlos Rodríguez,Oeste,Colima,Efectivo,Completada
+V0280,2025-04-05,Auriculares Sony,Audio,3,2574.58,7723.74,10,772.37,1112.22,8063.59,Sofía Ruiz,Sur,Mérida,Efectivo,Completada
+V0281,2024-10-29,Cámara Canon,Fotografía,6,14057.93,84347.58,10,8434.76,12146.05,88058.87,Carlos Rodríguez,Este,Tampico,Efectivo,Completada
+V0282,2025-08-02,Auriculares Sony,Audio,3,3156.9,9470.7,10,947.07,1363.78,9887.41,Carlos Rodríguez,Oeste,Puerto Vallarta,Tarjeta de Débito,Completada
+V0283,2025-06-05,"Monitor LG 27""",Periféricos,2,5361.73,10723.46,5,536.17,1629.97,11817.26,Carlos Rodríguez,Este,Xalapa,Transferencia,Completada
+V0284,2025-04-08,Teclado Mecánico,Periféricos,2,1311.59,2623.18,5,131.16,398.72,2890.74,Sofía Ruiz,Sur,Tuxtla,Transferencia,Completada
+V0285,2025-08-03,iPhone 14,Teléfonos,10,15153.66,151536.6,5,7576.83,23033.56,166993.33,Juan Pérez,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0286,2025-08-22,Memoria USB 64GB,Almacenamiento,4,304.52,1218.08,0,0.0,194.89,1412.97,María López,Sur,Mérida,Transferencia,Completada
+V0287,2024-12-10,Smartwatch Apple,Wearables,2,8757.78,17515.56,5,875.78,2662.36,19302.14,Miguel Hernández,Este,Veracruz,Tarjeta de Crédito,Completada
+V0288,2025-03-23,iPhone 14,Teléfonos,4,14780.35,59121.4,0,0.0,9459.42,68580.82,Carlos Rodríguez,Norte,Tijuana,Efectivo,Completada
+V0289,2024-10-31,iPhone 14,Teléfonos,2,20113.91,40227.82,0,0.0,6436.45,46664.27,Laura Martínez,Sur,Cancún,Tarjeta de Débito,Pendiente
+V0290,2024-11-27,Tablet Samsung,Tablets,1,6481.0,6481.0,0,0.0,1036.96,7517.96,Diego Torres,Norte,Chihuahua,Tarjeta de Crédito,Pendiente
+V0291,2024-11-17,Cargador Inalámbrico,Accesorios,1,786.03,786.03,0,0.0,125.76,911.79,Carlos Rodríguez,Centro,Toluca,Efectivo,Completada
+V0292,2025-05-16,Cargador Inalámbrico,Accesorios,2,733.46,1466.92,0,0.0,234.71,1701.63,Carlos Rodríguez,Norte,Chihuahua,Tarjeta de Crédito,Completada
+V0293,2025-02-09,Parlantes Bluetooth,Audio,1,2003.17,2003.17,0,0.0,320.51,2323.68,Carmen Jiménez,Este,Veracruz,Tarjeta de Débito,Cancelada
+V0294,2025-04-17,iPad Air,Tablets,6,10309.13,61854.78,5,3092.74,9401.93,68163.97,Ana García,Sur,Cancún,Tarjeta de Débito,Completada
+V0295,2024-12-21,"Monitor LG 27""",Periféricos,1,4095.14,4095.14,10,409.51,589.7,4275.33,Juan Pérez,Norte,Saltillo,Tarjeta de Débito,Completada
+V0296,2025-02-08,Cargador Inalámbrico,Accesorios,3,1051.26,3153.7799999999997,15,473.07,428.91,3109.62,Carmen Jiménez,Este,Veracruz,Tarjeta de Crédito,Completada
+V0297,2024-10-09,Impresora HP,Oficina,1,2578.16,2578.16,0,0.0,412.51,2990.67,Laura Martínez,Centro,Toluca,Tarjeta de Crédito,Cancelada
+V0298,2025-04-04,Disco Duro 1TB,Almacenamiento,1,1333.26,1333.26,20,266.65,170.66,1237.27,Carmen Jiménez,Este,Xalapa,Tarjeta de Débito,Completada
+V0299,2025-06-30,Webcam Logitech,Periféricos,1,1213.67,1213.67,0,0.0,194.19,1407.86,Diego Torres,Este,Veracruz,Tarjeta de Débito,Completada
+V0300,2025-03-08,"Monitor LG 27""",Periféricos,9,4537.96,40841.64,0,0.0,6534.66,47376.3,Miguel Hernández,Oeste,Colima,Efectivo,Completada
+V0301,2024-10-19,Cámara Canon,Fotografía,2,12473.02,24946.04,5,1247.3,3791.8,27490.54,Diego Torres,Norte,Chihuahua,Tarjeta de Crédito,Completada
+V0302,2025-06-25,Mouse Inalámbrico,Periféricos,1,904.19,904.19,5,45.21,137.44,996.42,Laura Martínez,Este,Coatzacoalcos,Tarjeta de Débito,Completada
+V0303,2025-08-21,MacBook Pro,Computadoras,1,33012.99,33012.99,5,1650.65,5017.97,36380.31,Juan Pérez,Centro,Ciudad de México,Tarjeta de Crédito,Pendiente
+V0304,2025-09-15,iPad Air,Tablets,4,12860.41,51441.64,10,5144.16,7407.6,53705.08,Ana García,Centro,Ciudad de México,Tarjeta de Crédito,Completada
+V0305,2024-12-22,Smartwatch Apple,Wearables,1,9045.65,9045.65,0,0.0,1447.3,10492.95,Pedro Sánchez,Sur,Villahermosa,Transferencia,Completada
+V0306,2025-08-21,Cargador Inalámbrico,Accesorios,1,815.62,815.62,0,0.0,130.5,946.12,Ana García,Oeste,Morelia,Transferencia,Completada
+V0307,2025-05-11,iPhone 14,Teléfonos,1,15697.82,15697.82,5,784.89,2386.07,17299.0,Diego Torres,Oeste,Colima,Transferencia,Completada
+V0308,2025-03-04,Disco Duro 1TB,Almacenamiento,8,990.61,7924.88,0,0.0,1267.98,9192.86,Miguel Hernández,Centro,Ciudad de México,Tarjeta de Crédito,Completada
+V0309,2025-01-14,Mouse Inalámbrico,Periféricos,3,838.13,2514.39,0,0.0,402.3,2916.69,Miguel Hernández,Oeste,Puerto Vallarta,Efectivo,Completada
+V0310,2025-09-01,Smartwatch Apple,Wearables,5,10782.23,53911.149999999994,0,0.0,8625.78,62536.93,Ana García,Este,Tampico,Tarjeta de Débito,Completada
+V0311,2024-12-14,Router WiFi,Redes,1,2189.42,2189.42,10,218.94,315.28,2285.76,Miguel Hernández,Centro,Ciudad de México,Transferencia,Completada
+V0312,2025-05-18,Memoria USB 64GB,Almacenamiento,2,283.58,567.16,0,0.0,90.75,657.91,Miguel Hernández,Este,Veracruz,Efectivo,Completada
+V0313,2025-08-09,Memoria USB 64GB,Almacenamiento,1,299.81,299.81,0,0.0,47.97,347.78,Carlos Rodríguez,Sur,Mérida,Tarjeta de Crédito,Completada
+V0314,2025-02-17,Samsung Galaxy S23,Teléfonos,1,12840.74,12840.74,0,0.0,2054.52,14895.26,Diego Torres,Sur,Cancún,Tarjeta de Crédito,Completada
+V0315,2024-10-10,Laptop Dell XPS,Computadoras,1,29965.4,29965.4,0,0.0,4794.46,34759.86,Laura Martínez,Norte,Tijuana,Efectivo,Completada
+V0316,2025-08-21,Laptop Dell XPS,Computadoras,10,26034.8,260348.0,10,26034.8,37490.11,271803.31,Miguel Hernández,Sur,Tuxtla,Tarjeta de Crédito,Pendiente
+V0317,2025-02-20,Laptop Dell XPS,Computadoras,3,21623.98,64871.94,10,6487.19,9341.56,67726.31,Sofía Ruiz,Sur,Mérida,Tarjeta de Débito,Completada
+V0318,2024-10-01,Webcam Logitech,Periféricos,1,1201.0,1201.0,10,120.1,172.94,1253.84,Sofía Ruiz,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0319,2025-02-17,iPhone 14,Teléfonos,6,18832.0,112992.0,5,5649.6,17174.78,124517.18,Carmen Jiménez,Este,Xalapa,Tarjeta de Débito,Completada
+V0320,2025-09-05,Cargador Inalámbrico,Accesorios,1,918.35,918.35,0,0.0,146.94,1065.29,Carlos Rodríguez,Centro,Cuernavaca,Tarjeta de Crédito,Completada
+V0321,2025-04-25,Webcam Logitech,Periféricos,5,958.02,4790.1,5,239.51,728.09,5278.68,Ana García,Sur,Villahermosa,Tarjeta de Crédito,Completada
+V0322,2025-07-13,Impresora HP,Oficina,3,2124.59,6373.77,5,318.69,968.81,7023.89,Pedro Sánchez,Centro,Ciudad de México,Transferencia,Completada
+V0323,2025-08-11,Router WiFi,Redes,1,2025.86,2025.86,0,0.0,324.14,2350.0,Diego Torres,Centro,Puebla,Tarjeta de Crédito,Completada
+V0324,2024-09-28,Webcam Logitech,Periféricos,1,1262.42,1262.42,5,63.12,191.89,1391.19,Miguel Hernández,Oeste,Puerto Vallarta,Tarjeta de Crédito,Completada
+V0325,2025-04-25,Laptop Dell XPS,Computadoras,4,28541.27,114165.08,0,0.0,18266.41,132431.49,Sofía Ruiz,Norte,Tijuana,Transferencia,Completada
+V0326,2025-03-14,Impresora HP,Oficina,4,2288.23,9152.92,5,457.65,1391.24,10086.51,Sofía Ruiz,Centro,Toluca,Tarjeta de Crédito,Completada
+V0327,2025-01-08,"Monitor LG 27""",Periféricos,2,3852.7,7705.4,0,0.0,1232.86,8938.26,Ana García,Centro,Puebla,Efectivo,Completada
+V0328,2025-05-15,Teclado Mecánico,Periféricos,2,1228.09,2456.18,0,0.0,392.99,2849.17,Juan Pérez,Oeste,Puerto Vallarta,Tarjeta de Crédito,Completada
+V0329,2024-10-15,Auriculares Sony,Audio,1,2687.71,2687.71,0,0.0,430.03,3117.74,Carlos Rodríguez,Este,Xalapa,Efectivo,Completada
+V0330,2025-06-26,Impresora HP,Oficina,1,2887.05,2887.05,5,144.35,438.83,3181.53,Juan Pérez,Norte,Tijuana,Tarjeta de Débito,Completada
+V0331,2025-06-02,Webcam Logitech,Periféricos,1,1252.59,1252.59,0,0.0,200.41,1453.0,Carlos Rodríguez,Sur,Villahermosa,Tarjeta de Débito,Completada
+V0332,2025-07-05,Cable HDMI,Accesorios,2,156.87,313.74,0,0.0,50.2,363.94,Ana García,Norte,Tijuana,Tarjeta de Crédito,Completada
+V0333,2024-11-09,Cargador Inalámbrico,Accesorios,5,1071.22,5356.1,0,0.0,856.98,6213.08,Sofía Ruiz,Oeste,Morelia,Tarjeta de Crédito,Completada
+V0334,2025-07-22,Cable HDMI,Accesorios,1,152.61,152.61,0,0.0,24.42,177.03,Pedro Sánchez,Sur,Tuxtla,Tarjeta de Débito,Completada
+V0335,2025-09-18,MacBook Pro,Computadoras,1,33887.07,33887.07,0,0.0,5421.93,39309.0,Laura Martínez,Sur,Cancún,Tarjeta de Débito,Completada
+V0336,2025-06-19,Parlantes Bluetooth,Audio,1,1481.41,1481.41,5,74.07,225.17,1632.51,Diego Torres,Oeste,Colima,Efectivo,Completada
+V0337,2025-05-03,Cargador Inalámbrico,Accesorios,4,872.84,3491.36,0,0.0,558.62,4049.98,Sofía Ruiz,Oeste,Colima,Efectivo,Completada
+V0338,2024-12-15,Laptop Dell XPS,Computadoras,1,24082.82,24082.82,0,0.0,3853.25,27936.07,María López,Sur,Villahermosa,Transferencia,Completada
+V0339,2025-03-08,MacBook Pro,Computadoras,3,35130.44,105391.32,0,0.0,16862.61,122253.93,Laura Martínez,Centro,Ciudad de México,Tarjeta de Crédito,Completada
+V0340,2024-12-12,iPad Air,Tablets,6,13707.39,82244.34,0,0.0,13159.09,95403.43,Sofía Ruiz,Sur,Cancún,Transferencia,Completada
+V0341,2025-06-10,Memoria USB 64GB,Almacenamiento,8,403.96,3231.68,0,0.0,517.07,3748.75,Juan Pérez,Norte,Chihuahua,Tarjeta de Débito,Completada
+V0342,2025-09-18,Samsung Galaxy S23,Teléfonos,2,14819.21,29638.42,15,4445.76,4030.83,29223.49,Carlos Rodríguez,Este,Veracruz,Tarjeta de Débito,Completada
+V0343,2025-07-05,MacBook Pro,Computadoras,2,38993.17,77986.34,0,0.0,12477.81,90464.15,Diego Torres,Norte,Chihuahua,Tarjeta de Crédito,Completada
+V0344,2025-03-15,Teclado Mecánico,Periféricos,1,1400.04,1400.04,0,0.0,224.01,1624.05,Pedro Sánchez,Sur,Villahermosa,Efectivo,Pendiente
+V0345,2024-11-14,iPad Air,Tablets,4,12920.45,51681.8,0,0.0,8269.09,59950.89,Carlos Rodríguez,Sur,Villahermosa,Tarjeta de Crédito,Completada
+V0346,2025-09-08,Smartwatch Apple,Wearables,1,7612.3,7612.3,5,380.62,1157.07,8388.75,Sofía Ruiz,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0347,2024-12-11,MacBook Pro,Computadoras,1,37952.96,37952.96,0,0.0,6072.47,44025.43,Ana García,Este,Coatzacoalcos,Tarjeta de Débito,Pendiente
+V0348,2025-08-24,Memoria USB 64GB,Almacenamiento,5,303.34,1516.6999999999998,10,151.67,218.4,1583.43,Diego Torres,Sur,Cancún,Efectivo,Completada
+V0349,2025-03-10,Impresora HP,Oficina,4,2635.71,10542.84,0,0.0,1686.85,12229.69,Pedro Sánchez,Norte,Chihuahua,Transferencia,Completada
+V0350,2024-10-24,Tablet Samsung,Tablets,8,8449.25,67594.0,5,3379.7,10274.29,74488.59,Pedro Sánchez,Sur,Tuxtla,Tarjeta de Crédito,Pendiente
+V0351,2025-01-15,iPad Air,Tablets,6,11532.08,69192.48,0,0.0,11070.8,80263.28,Ana García,Este,Coatzacoalcos,Tarjeta de Crédito,Completada
+V0352,2025-01-24,MacBook Pro,Computadoras,1,30311.05,30311.05,20,6062.21,3879.81,28128.65,Pedro Sánchez,Norte,Saltillo,Tarjeta de Débito,Completada
+V0353,2024-10-04,Laptop Dell XPS,Computadoras,1,20537.69,20537.69,0,0.0,3286.03,23823.72,Juan Pérez,Este,Veracruz,Tarjeta de Débito,Completada
+V0354,2025-06-15,Auriculares Sony,Audio,5,3556.33,17781.65,0,0.0,2845.06,20626.71,Carlos Rodríguez,Norte,Tijuana,Efectivo,Completada
+V0355,2025-03-24,Samsung Galaxy S23,Teléfonos,1,17739.72,17739.72,0,0.0,2838.36,20578.08,Carlos Rodríguez,Oeste,Puerto Vallarta,Tarjeta de Crédito,Completada
+V0356,2025-02-08,Webcam Logitech,Periféricos,1,936.0,936.0,0,0.0,149.76,1085.76,Ana García,Centro,Toluca,Tarjeta de Crédito,Completada
+V0357,2025-08-09,Disco Duro 1TB,Almacenamiento,1,1369.91,1369.91,5,68.5,208.23,1509.64,Carlos Rodríguez,Sur,Villahermosa,Transferencia,Completada
+V0358,2024-12-03,Cargador Inalámbrico,Accesorios,3,1002.53,3007.59,0,0.0,481.21,3488.8,Juan Pérez,Centro,Toluca,Transferencia,Completada
+V0359,2025-08-20,Mouse Inalámbrico,Periféricos,1,695.52,695.52,0,0.0,111.28,806.8,Carlos Rodríguez,Sur,Villahermosa,Tarjeta de Débito,Completada
+V0360,2025-05-13,Router WiFi,Redes,2,2254.0,4508.0,0,0.0,721.28,5229.28,Miguel Hernández,Norte,Monterrey,Tarjeta de Débito,Cancelada
+V0361,2025-07-22,Webcam Logitech,Periféricos,3,981.24,2943.7200000000003,0,0.0,471.0,3414.72,Pedro Sánchez,Sur,Cancún,Tarjeta de Crédito,Completada
+V0362,2025-04-04,Webcam Logitech,Periféricos,4,910.65,3642.6,0,0.0,582.82,4225.42,Juan Pérez,Centro,Puebla,Tarjeta de Débito,Completada
+V0363,2024-10-18,Auriculares Sony,Audio,3,2627.46,7882.38,0,0.0,1261.18,9143.56,María López,Norte,Saltillo,Tarjeta de Crédito,Completada
+V0364,2025-08-18,Disco Duro 1TB,Almacenamiento,9,1127.4,10146.6,5,507.33,1542.28,11181.55,Juan Pérez,Este,Coatzacoalcos,Tarjeta de Crédito,Completada
+V0365,2025-03-19,Samsung Galaxy S23,Teléfonos,2,18300.87,36601.74,15,5490.26,4977.84,36089.32,Diego Torres,Centro,Ciudad de México,Efectivo,Completada
+V0366,2024-12-15,Cargador Inalámbrico,Accesorios,5,837.54,4187.7,0,0.0,670.03,4857.73,Pedro Sánchez,Este,Tampico,Transferencia,Completada
+V0367,2025-03-13,Webcam Logitech,Periféricos,3,1197.21,3591.63,0,0.0,574.66,4166.29,Miguel Hernández,Este,Tampico,Tarjeta de Débito,Completada
+V0368,2025-08-04,Auriculares Sony,Audio,3,3175.15,9525.45,10,952.55,1371.66,9944.56,Miguel Hernández,Este,Tampico,Tarjeta de Crédito,Completada
+V0369,2024-10-07,iPad Air,Tablets,2,14223.75,28447.5,0,0.0,4551.6,32999.1,Juan Pérez,Oeste,Guadalajara,Transferencia,Pendiente
+V0370,2025-01-26,Laptop Dell XPS,Computadoras,2,21863.9,43727.8,20,8745.56,5597.16,40579.4,Carmen Jiménez,Centro,Puebla,Tarjeta de Crédito,Completada
+V0371,2025-05-26,Impresora HP,Oficina,2,2568.21,5136.42,0,0.0,821.83,5958.25,Pedro Sánchez,Oeste,Colima,Tarjeta de Crédito,Pendiente
+V0372,2025-07-02,Tablet Samsung,Tablets,1,7918.27,7918.27,5,395.91,1203.58,8725.94,María López,Norte,Monterrey,Efectivo,Completada
+V0373,2025-02-15,iPhone 14,Teléfonos,5,19964.22,99821.1,10,9982.11,14374.24,104213.23,Diego Torres,Sur,Tuxtla,Tarjeta de Crédito,Completada
+V0374,2025-04-19,Memoria USB 64GB,Almacenamiento,1,301.42,301.42,5,15.07,45.82,332.17,Miguel Hernández,Norte,Monterrey,Tarjeta de Crédito,Completada
+V0375,2025-08-31,Cargador Inalámbrico,Accesorios,9,984.73,8862.57,15,1329.39,1205.31,8738.49,Sofía Ruiz,Este,Veracruz,Tarjeta de Crédito,Completada
+V0376,2025-07-31,Mouse Inalámbrico,Periféricos,2,795.17,1590.34,0,0.0,254.45,1844.79,Carmen Jiménez,Este,Coatzacoalcos,Tarjeta de Crédito,Completada
+V0377,2024-10-04,iPad Air,Tablets,1,11449.54,11449.54,0,0.0,1831.93,13281.47,Pedro Sánchez,Norte,Chihuahua,Tarjeta de Débito,Completada
+V0378,2025-09-16,Cable HDMI,Accesorios,8,164.69,1317.52,5,65.88,200.26,1451.9,Carlos Rodríguez,Centro,Ciudad de México,Efectivo,Completada
+V0379,2025-07-06,Router WiFi,Redes,2,2346.94,4693.88,0,0.0,751.02,5444.9,Pedro Sánchez,Este,Xalapa,Tarjeta de Crédito,Completada
+V0380,2025-05-18,Disco Duro 1TB,Almacenamiento,1,960.06,960.06,20,192.01,122.89,890.94,Sofía Ruiz,Oeste,Morelia,Transferencia,Completada
+V0381,2024-12-15,MacBook Pro,Computadoras,1,31154.74,31154.74,0,0.0,4984.76,36139.5,Carlos Rodríguez,Este,Veracruz,Tarjeta de Crédito,Completada
+V0382,2025-04-17,Disco Duro 1TB,Almacenamiento,1,1250.57,1250.57,0,0.0,200.09,1450.66,Ana García,Centro,Puebla,Efectivo,Completada
+V0383,2025-03-19,Webcam Logitech,Periféricos,8,1154.51,9236.08,5,461.8,1403.88,10178.16,Miguel Hernández,Centro,Cuernavaca,Transferencia,Completada
+V0384,2025-09-09,Disco Duro 1TB,Almacenamiento,6,1220.42,7322.52,0,0.0,1171.6,8494.12,Sofía Ruiz,Oeste,Colima,Transferencia,Completada
+V0385,2025-03-10,Tablet Samsung,Tablets,2,9246.78,18493.56,0,0.0,2958.97,21452.53,Ana García,Este,Xalapa,Efectivo,Completada
+V0386,2024-12-08,Disco Duro 1TB,Almacenamiento,5,1418.19,7090.950000000001,10,709.1,1021.1,7402.95,Laura Martínez,Norte,Tijuana,Efectivo,Pendiente
+V0387,2025-06-29,Smartwatch Apple,Wearables,1,9200.17,9200.17,20,1840.03,1177.62,8537.76,Ana García,Oeste,Guadalajara,Efectivo,Completada
+V0388,2024-11-02,Mouse Inalámbrico,Periféricos,9,722.46,6502.14,15,975.32,884.29,6411.11,Carmen Jiménez,Norte,Tijuana,Tarjeta de Crédito,Completada
+V0389,2025-01-28,Mouse Inalámbrico,Periféricos,1,858.08,858.08,0,0.0,137.29,995.37,Sofía Ruiz,Sur,Tuxtla,Tarjeta de Crédito,Completada
+V0390,2025-07-17,Disco Duro 1TB,Almacenamiento,4,1294.75,5179.0,15,776.85,704.34,5106.49,María López,Este,Coatzacoalcos,Tarjeta de Crédito,Completada
+V0391,2025-02-18,Cámara Canon,Fotografía,3,13655.59,40966.770000000004,0,0.0,6554.68,47521.45,Carlos Rodríguez,Sur,Tuxtla,Tarjeta de Débito,Completada
+V0392,2025-07-19,Smartwatch Apple,Wearables,2,9679.27,19358.54,5,967.93,2942.5,21333.11,Sofía Ruiz,Norte,Chihuahua,Tarjeta de Crédito,Pendiente
+V0393,2024-10-04,iPhone 14,Teléfonos,9,16328.76,146958.84,5,7347.94,22337.74,161948.64,María López,Norte,Monterrey,Efectivo,Completada
+V0394,2025-06-01,Tablet Samsung,Tablets,10,6519.27,65192.700000000004,0,0.0,10430.83,75623.53,Diego Torres,Norte,Tijuana,Tarjeta de Débito,Completada
+V0395,2025-08-25,Cámara Canon,Fotografía,1,12139.72,12139.72,15,1820.96,1651.0,11969.76,Carlos Rodríguez,Este,Coatzacoalcos,Tarjeta de Crédito,Completada
+V0396,2024-10-22,Router WiFi,Redes,1,2400.91,2400.91,5,120.05,364.94,2645.8,María López,Este,Tampico,Tarjeta de Crédito,Completada
+V0397,2025-08-24,iPhone 14,Teléfonos,1,16850.53,16850.53,10,1685.05,2426.48,17591.96,Sofía Ruiz,Sur,Villahermosa,Tarjeta de Crédito,Completada
+V0398,2025-07-24,MacBook Pro,Computadoras,5,40998.46,204992.3,15,30748.84,27878.95,202122.41,Carlos Rodríguez,Norte,Saltillo,Tarjeta de Débito,Completada
+V0399,2024-11-24,Tablet Samsung,Tablets,4,7049.72,28198.88,5,1409.94,4286.23,31075.17,María López,Oeste,Colima,Tarjeta de Crédito,Completada
+V0400,2025-07-22,MacBook Pro,Computadoras,3,39401.0,118203.0,5,5910.15,17966.86,130259.71,Laura Martínez,Centro,Puebla,Tarjeta de Débito,Completada
+V0401,2025-03-05,Memoria USB 64GB,Almacenamiento,6,394.74,2368.44,0,0.0,378.95,2747.39,Sofía Ruiz,Norte,Saltillo,Tarjeta de Débito,Completada
+V0402,2025-01-12,Disco Duro 1TB,Almacenamiento,5,1307.13,6535.650000000001,5,326.78,993.42,7202.29,Sofía Ruiz,Sur,Tuxtla,Transferencia,Completada
+V0403,2025-01-20,Mouse Inalámbrico,Periféricos,4,857.44,3429.76,20,685.95,439.01,3182.82,Miguel Hernández,Norte,Tijuana,Tarjeta de Crédito,Completada
+V0404,2025-06-16,Impresora HP,Oficina,2,2240.95,4481.9,5,224.09,681.25,4939.06,Diego Torres,Este,Xalapa,Tarjeta de Crédito,Completada
+V0405,2024-10-02,Router WiFi,Redes,5,2376.75,11883.75,0,0.0,1901.4,13785.15,Miguel Hernández,Sur,Cancún,Tarjeta de Crédito,Completada
+V0406,2025-01-07,Cargador Inalámbrico,Accesorios,2,918.11,1836.22,15,275.43,249.73,1810.52,Ana García,Este,Veracruz,Tarjeta de Crédito,Completada
+V0407,2025-02-14,Samsung Galaxy S23,Teléfonos,6,16975.41,101852.45999999999,0,0.0,16296.39,118148.85,Carlos Rodríguez,Norte,Saltillo,Transferencia,Completada
+V0408,2025-07-23,Memoria USB 64GB,Almacenamiento,1,306.52,306.52,0,0.0,49.04,355.56,Miguel Hernández,Este,Coatzacoalcos,Tarjeta de Crédito,Cancelada
+V0409,2025-08-24,Disco Duro 1TB,Almacenamiento,8,1236.36,9890.88,10,989.09,1424.29,10326.08,Diego Torres,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0410,2025-09-18,Disco Duro 1TB,Almacenamiento,1,1087.12,1087.12,0,0.0,173.94,1261.06,Pedro Sánchez,Norte,Tijuana,Tarjeta de Crédito,Completada
+V0411,2025-02-06,Teclado Mecánico,Periféricos,1,1451.96,1451.96,0,0.0,232.31,1684.27,Miguel Hernández,Centro,Cuernavaca,Tarjeta de Débito,Completada
+V0412,2025-08-14,Memoria USB 64GB,Almacenamiento,5,325.52,1627.6,5,81.38,247.4,1793.62,Carmen Jiménez,Centro,Ciudad de México,Tarjeta de Crédito,Completada
+V0413,2024-11-12,Tablet Samsung,Tablets,2,6640.66,13281.32,0,0.0,2125.01,15406.33,Diego Torres,Centro,Puebla,Tarjeta de Crédito,Completada
+V0414,2025-01-13,Cargador Inalámbrico,Accesorios,1,899.13,899.13,0,0.0,143.86,1042.99,Sofía Ruiz,Sur,Cancún,Tarjeta de Crédito,Completada
+V0415,2025-09-04,Smartwatch Apple,Wearables,1,9901.47,9901.47,0,0.0,1584.24,11485.71,Carmen Jiménez,Oeste,Puerto Vallarta,Tarjeta de Débito,Completada
+V0416,2025-05-30,Samsung Galaxy S23,Teléfonos,4,13208.92,52835.68,0,0.0,8453.71,61289.39,Miguel Hernández,Sur,Cancún,Tarjeta de Crédito,Pendiente
+V0417,2024-12-24,Disco Duro 1TB,Almacenamiento,2,1114.81,2229.62,0,0.0,356.74,2586.36,María López,Este,Xalapa,Efectivo,Completada
+V0418,2025-07-23,Samsung Galaxy S23,Teléfonos,3,12962.71,38888.13,0,0.0,6222.1,45110.23,Miguel Hernández,Oeste,Colima,Transferencia,Completada
+V0419,2025-06-09,Cargador Inalámbrico,Accesorios,1,882.83,882.83,0,0.0,141.25,1024.08,María López,Centro,Puebla,Transferencia,Cancelada
+V0420,2025-09-16,MacBook Pro,Computadoras,5,28301.63,141508.15,5,7075.41,21509.24,155941.98,Miguel Hernández,Norte,Saltillo,Efectivo,Completada
+V0421,2025-03-28,MacBook Pro,Computadoras,2,30683.31,61366.62,0,0.0,9818.66,71185.28,Laura Martínez,Sur,Villahermosa,Efectivo,Completada
+V0422,2025-04-07,Laptop Dell XPS,Computadoras,5,28176.99,140884.95,0,0.0,22541.59,163426.54,Carmen Jiménez,Norte,Monterrey,Tarjeta de Débito,Completada
+V0423,2025-03-24,Auriculares Sony,Audio,2,3243.57,6487.14,0,0.0,1037.94,7525.08,Pedro Sánchez,Sur,Mérida,Tarjeta de Crédito,Completada
+V0424,2025-03-29,Auriculares Sony,Audio,4,3194.23,12776.92,0,0.0,2044.31,14821.23,Miguel Hernández,Oeste,Guadalajara,Efectivo,Completada
+V0425,2025-03-22,Memoria USB 64GB,Almacenamiento,5,287.02,1435.1,0,0.0,229.62,1664.72,Carlos Rodríguez,Sur,Cancún,Tarjeta de Crédito,Completada
+V0426,2025-04-27,Cable HDMI,Accesorios,4,175.54,702.16,5,35.11,106.73,773.78,Carlos Rodríguez,Sur,Villahermosa,Efectivo,Completada
+V0427,2024-12-18,Memoria USB 64GB,Almacenamiento,3,378.59,1135.77,0,0.0,181.72,1317.49,María López,Centro,Puebla,Efectivo,Completada
+V0428,2025-03-16,iPad Air,Tablets,7,13826.33,96784.31,0,0.0,15485.49,112269.8,Ana García,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0429,2024-10-27,Cámara Canon,Fotografía,4,17058.84,68235.36,0,0.0,10917.66,79153.02,María López,Centro,Cuernavaca,Efectivo,Completada
+V0430,2025-03-07,Auriculares Sony,Audio,3,2642.31,7926.93,10,792.69,1141.48,8275.72,Miguel Hernández,Sur,Tuxtla,Tarjeta de Crédito,Completada
+V0431,2025-06-16,Webcam Logitech,Periféricos,2,954.45,1908.9,0,0.0,305.42,2214.32,Diego Torres,Sur,Mérida,Efectivo,Cancelada
+V0432,2025-05-10,Tablet Samsung,Tablets,3,7501.09,22503.27,15,3375.49,3060.44,22188.22,Ana García,Centro,Puebla,Tarjeta de Débito,Completada
+V0433,2025-03-03,Router WiFi,Redes,5,2377.23,11886.15,0,0.0,1901.78,13787.93,Sofía Ruiz,Sur,Mérida,Tarjeta de Crédito,Completada
+V0434,2025-04-03,Router WiFi,Redes,5,2323.35,11616.75,0,0.0,1858.68,13475.43,Diego Torres,Este,Tampico,Tarjeta de Débito,Completada
+V0435,2025-09-12,Auriculares Sony,Audio,3,3142.87,9428.61,0,0.0,1508.58,10937.19,Carmen Jiménez,Norte,Chihuahua,Tarjeta de Crédito,Completada
+V0436,2025-04-21,Mouse Inalámbrico,Periféricos,1,882.37,882.37,5,44.12,134.12,972.37,Diego Torres,Centro,Puebla,Transferencia,Completada
+V0437,2025-06-08,iPad Air,Tablets,5,11151.62,55758.100000000006,15,8363.72,7583.1,54977.48,Pedro Sánchez,Norte,Tijuana,Transferencia,Completada
+V0438,2025-02-20,Tablet Samsung,Tablets,3,9469.15,28407.449999999997,0,0.0,4545.19,32952.64,Diego Torres,Norte,Tijuana,Tarjeta de Débito,Completada
+V0439,2024-09-20,Router WiFi,Redes,1,2014.36,2014.36,0,0.0,322.3,2336.66,Carlos Rodríguez,Centro,Ciudad de México,Tarjeta de Crédito,Pendiente
+V0440,2025-04-28,Impresora HP,Oficina,1,2252.37,2252.37,0,0.0,360.38,2612.75,Diego Torres,Este,Tampico,Tarjeta de Débito,Completada
+V0441,2025-06-13,MacBook Pro,Computadoras,6,36396.82,218380.91999999998,0,0.0,34940.95,253321.87,Diego Torres,Centro,Toluca,Transferencia,Completada
+V0442,2024-09-25,Cámara Canon,Fotografía,1,12212.07,12212.07,0,0.0,1953.93,14166.0,Laura Martínez,Sur,Mérida,Tarjeta de Crédito,Cancelada
+V0443,2024-12-27,Cable HDMI,Accesorios,2,127.8,255.6,10,25.56,36.81,266.85,Juan Pérez,Este,Tampico,Tarjeta de Débito,Pendiente
+V0444,2025-04-14,Smartwatch Apple,Wearables,3,8308.24,24924.72,5,1246.24,3788.56,27467.04,Laura Martínez,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0445,2024-09-20,Teclado Mecánico,Periféricos,1,1477.21,1477.21,0,0.0,236.35,1713.56,Pedro Sánchez,Sur,Mérida,Tarjeta de Crédito,Completada
+V0446,2025-08-22,MacBook Pro,Computadoras,2,30649.67,61299.34,15,9194.9,8336.71,60441.15,Ana García,Centro,Toluca,Tarjeta de Débito,Completada
+V0447,2025-08-03,Impresora HP,Oficina,4,2176.17,8704.68,0,0.0,1392.75,10097.43,Juan Pérez,Norte,Monterrey,Efectivo,Completada
+V0448,2024-12-14,iPad Air,Tablets,1,13348.3,13348.3,5,667.41,2028.94,14709.83,Laura Martínez,Sur,Tuxtla,Tarjeta de Débito,Completada
+V0449,2024-12-23,MacBook Pro,Computadoras,1,36440.18,36440.18,0,0.0,5830.43,42270.61,Sofía Ruiz,Norte,Tijuana,Tarjeta de Crédito,Completada
+V0450,2025-08-02,Samsung Galaxy S23,Teléfonos,3,12873.31,38619.93,10,3861.99,5561.27,40319.21,Miguel Hernández,Norte,Tijuana,Efectivo,Completada
+V0451,2025-09-15,Cargador Inalámbrico,Accesorios,2,800.68,1601.36,0,0.0,256.22,1857.58,Sofía Ruiz,Sur,Villahermosa,Tarjeta de Crédito,Completada
+V0452,2025-08-18,Samsung Galaxy S23,Teléfonos,2,14062.27,28124.54,5,1406.23,4274.93,30993.24,Miguel Hernández,Oeste,Guadalajara,Efectivo,Completada
+V0453,2025-07-10,MacBook Pro,Computadoras,4,36280.43,145121.72,5,7256.09,22058.5,159924.13,Ana García,Este,Veracruz,Tarjeta de Crédito,Completada
+V0454,2025-01-17,Cable HDMI,Accesorios,1,137.26,137.26,10,13.73,19.76,143.29,Pedro Sánchez,Este,Xalapa,Tarjeta de Crédito,Completada
+V0455,2025-07-16,Router WiFi,Redes,10,2586.15,25861.5,5,1293.08,3930.95,28499.37,Pedro Sánchez,Oeste,Colima,Tarjeta de Crédito,Completada
+V0456,2025-05-29,Cargador Inalámbrico,Accesorios,2,841.89,1683.78,5,84.19,255.93,1855.52,Ana García,Centro,Ciudad de México,Tarjeta de Crédito,Completada
+V0457,2025-03-28,Cámara Canon,Fotografía,7,14521.98,101653.86,0,0.0,16264.62,117918.48,María López,Sur,Tuxtla,Tarjeta de Crédito,Completada
+V0458,2025-06-20,Memoria USB 64GB,Almacenamiento,1,329.57,329.57,0,0.0,52.73,382.3,Ana García,Sur,Cancún,Tarjeta de Débito,Completada
+V0459,2025-03-23,Teclado Mecánico,Periféricos,4,1329.16,5316.64,0,0.0,850.66,6167.3,Sofía Ruiz,Norte,Chihuahua,Tarjeta de Débito,Completada
+V0460,2025-08-27,Impresora HP,Oficina,1,2493.08,2493.08,0,0.0,398.89,2891.97,Miguel Hernández,Norte,Monterrey,Tarjeta de Débito,Completada
+V0461,2024-10-29,Auriculares Sony,Audio,1,2747.91,2747.91,0,0.0,439.67,3187.58,Miguel Hernández,Este,Veracruz,Tarjeta de Débito,Completada
+V0462,2025-08-04,Router WiFi,Redes,3,1771.34,5314.0199999999995,15,797.1,722.71,5239.63,Carmen Jiménez,Oeste,Puerto Vallarta,Efectivo,Completada
+V0463,2025-01-30,Parlantes Bluetooth,Audio,2,1527.69,3055.38,0,0.0,488.86,3544.24,Diego Torres,Sur,Tuxtla,Tarjeta de Crédito,Completada
+V0464,2025-09-11,iPhone 14,Teléfonos,7,20502.98,143520.86,0,0.0,22963.34,166484.2,Carlos Rodríguez,Este,Coatzacoalcos,Tarjeta de Débito,Completada
+V0465,2025-01-01,Webcam Logitech,Periféricos,3,1073.28,3219.84,0,0.0,515.17,3735.01,Juan Pérez,Sur,Tuxtla,Tarjeta de Débito,Completada
+V0466,2025-07-09,Cargador Inalámbrico,Accesorios,3,757.36,2272.08,5,113.6,345.36,2503.84,Pedro Sánchez,Norte,Chihuahua,Tarjeta de Débito,Completada
+V0467,2024-11-29,Tablet Samsung,Tablets,2,9329.8,18659.6,0,0.0,2985.54,21645.14,Diego Torres,Norte,Monterrey,Efectivo,Completada
+V0468,2025-09-08,iPad Air,Tablets,3,10072.17,30216.510000000002,0,0.0,4834.64,35051.15,Carlos Rodríguez,Oeste,Colima,Tarjeta de Débito,Pendiente
+V0469,2024-10-04,Cámara Canon,Fotografía,3,16643.24,49929.72,0,0.0,7988.76,57918.48,Juan Pérez,Centro,Cuernavaca,Tarjeta de Crédito,Completada
+V0470,2025-08-24,Cámara Canon,Fotografía,1,16973.92,16973.92,5,848.7,2580.04,18705.26,Pedro Sánchez,Este,Veracruz,Tarjeta de Débito,Completada
+V0471,2025-01-06,iPad Air,Tablets,6,11974.88,71849.28,0,0.0,11495.88,83345.16,Pedro Sánchez,Este,Coatzacoalcos,Tarjeta de Débito,Completada
+V0472,2025-04-26,Smartwatch Apple,Wearables,2,7730.22,15460.44,0,0.0,2473.67,17934.11,Carmen Jiménez,Sur,Villahermosa,Efectivo,Completada
+V0473,2025-07-05,iPad Air,Tablets,2,11593.97,23187.94,20,4637.59,2968.06,21518.41,Ana García,Oeste,Guadalajara,Tarjeta de Crédito,Completada
+V0474,2025-07-18,Impresora HP,Oficina,1,2309.25,2309.25,0,0.0,369.48,2678.73,Juan Pérez,Este,Tampico,Tarjeta de Crédito,Completada
+V0475,2025-07-21,Cable HDMI,Accesorios,1,150.09,150.09,10,15.01,21.61,156.69,Laura Martínez,Norte,Tijuana,Tarjeta de Crédito,Pendiente
+V0476,2025-02-02,Smartwatch Apple,Wearables,5,7777.92,38889.6,5,1944.48,5911.22,42856.34,Juan Pérez,Oeste,Guadalajara,Transferencia,Completada
+V0477,2025-03-08,Disco Duro 1TB,Almacenamiento,4,1090.28,4361.12,10,436.11,628.0,4553.01,Ana García,Centro,Toluca,Tarjeta de Crédito,Completada
+V0478,2025-03-03,Cable HDMI,Accesorios,3,154.14,462.41999999999996,0,0.0,73.99,536.41,Laura Martínez,Centro,Ciudad de México,Tarjeta de Crédito,Completada
+V0479,2025-06-11,Router WiFi,Redes,2,1863.64,3727.28,0,0.0,596.36,4323.64,Ana García,Este,Tampico,Transferencia,Pendiente
+V0480,2025-06-30,Cargador Inalámbrico,Accesorios,2,965.4,1930.8,0,0.0,308.93,2239.73,Juan Pérez,Oeste,Guadalajara,Efectivo,Completada
+V0481,2024-09-25,Teclado Mecánico,Periféricos,6,1705.96,10235.76,0,0.0,1637.72,11873.48,Miguel Hernández,Centro,Puebla,Tarjeta de Débito,Completada
+V0482,2025-07-18,Cargador Inalámbrico,Accesorios,1,1073.63,1073.63,0,0.0,171.78,1245.41,María López,Centro,Cuernavaca,Transferencia,Completada
+V0483,2024-12-04,iPhone 14,Teléfonos,6,21177.99,127067.94,0,0.0,20330.87,147398.81,Carmen Jiménez,Este,Coatzacoalcos,Transferencia,Cancelada
+V0484,2024-11-09,Teclado Mecánico,Periféricos,3,1348.2,4044.6000000000004,15,606.69,550.07,3987.98,María López,Este,Tampico,Tarjeta de Débito,Completada
+V0485,2024-11-14,"Monitor LG 27""",Periféricos,1,4046.86,4046.86,5,202.34,615.12,4459.64,Pedro Sánchez,Norte,Tijuana,Tarjeta de Crédito,Completada
+V0486,2025-01-02,iPad Air,Tablets,2,14031.57,28063.14,0,0.0,4490.1,32553.24,Pedro Sánchez,Oeste,Guadalajara,Transferencia,Completada
+V0487,2025-06-07,Cable HDMI,Accesorios,7,149.26,1044.82,0,0.0,167.17,1211.99,Ana García,Norte,Saltillo,Tarjeta de Crédito,Completada
+V0488,2024-10-31,Mouse Inalámbrico,Periféricos,1,806.19,806.19,0,0.0,128.99,935.18,Carmen Jiménez,Centro,Puebla,Efectivo,Completada
+V0489,2025-02-28,Impresora HP,Oficina,4,2324.91,9299.64,5,464.98,1413.55,10248.21,Ana García,Oeste,Colima,Transferencia,Completada
+V0490,2025-04-07,Memoria USB 64GB,Almacenamiento,4,341.06,1364.24,5,68.21,207.36,1503.39,Miguel Hernández,Sur,Cancún,Tarjeta de Débito,Cancelada
+V0491,2025-04-07,Laptop Dell XPS,Computadoras,2,23068.77,46137.54,5,2306.88,7012.91,50843.57,Ana García,Centro,Toluca,Tarjeta de Crédito,Completada
+V0492,2025-06-14,"Monitor LG 27""",Periféricos,5,3863.51,19317.550000000003,0,0.0,3090.81,22408.36,Pedro Sánchez,Centro,Ciudad de México,Tarjeta de Crédito,Completada
+V0493,2024-10-20,Router WiFi,Redes,3,2160.62,6481.86,0,0.0,1037.1,7518.96,María López,Centro,Puebla,Tarjeta de Crédito,Completada
+V0494,2025-04-17,Auriculares Sony,Audio,7,3411.78,23882.460000000003,0,0.0,3821.19,27703.65,Miguel Hernández,Norte,Saltillo,Transferencia,Completada
+V0495,2025-02-19,Auriculares Sony,Audio,2,3585.06,7170.12,0,0.0,1147.22,8317.34,Sofía Ruiz,Este,Xalapa,Tarjeta de Crédito,Completada
+V0496,2024-09-23,Cámara Canon,Fotografía,1,13738.78,13738.78,0,0.0,2198.2,15936.98,Pedro Sánchez,Oeste,Guadalajara,Transferencia,Completada
+V0497,2025-05-28,iPad Air,Tablets,1,13619.59,13619.59,0,0.0,2179.13,15798.72,Juan Pérez,Norte,Tijuana,Efectivo,Completada
+V0498,2025-05-21,iPad Air,Tablets,5,11134.4,55672.0,0,0.0,8907.52,64579.52,María López,Este,Xalapa,Efectivo,Cancelada
+V0499,2025-01-07,Parlantes Bluetooth,Audio,3,1837.89,5513.67,0,0.0,882.19,6395.86,Carlos Rodríguez,Norte,Chihuahua,Transferencia,Completada
+V0500,2025-02-22,Disco Duro 1TB,Almacenamiento,9,1400.18,12601.62,5,630.08,1915.45,13886.99,Miguel Hernández,Norte,Tijuana,Tarjeta de Débito,Pendiente

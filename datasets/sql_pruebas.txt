@@ -1,0 +1,63 @@
+use pruebas;
+
+
+
+CREATE TABLE customers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(120) NOT NULL,
+  email VARCHAR(160) UNIQUE,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE products (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  sku VARCHAR(50) UNIQUE NOT NULL,
+  name VARCHAR(160) NOT NULL,
+  price DECIMAL(10,2) NOT NULL CHECK (price >= 0)
+);
+
+CREATE TABLE orders (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  customer_id INT NOT NULL,
+  status ENUM('NEW','PAID','CANCELLED') NOT NULL DEFAULT 'NEW',
+  ordered_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (customer_id) REFERENCES customers(id)
+);
+
+CREATE TABLE order_items (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  order_id INT NOT NULL,
+  product_id INT NOT NULL,
+  qty INT NOT NULL CHECK (qty > 0),
+  unit_price DECIMAL(10,2) NOT NULL CHECK (unit_price >= 0),
+  FOREIGN KEY (order_id) REFERENCES orders(id),
+  FOREIGN KEY (product_id) REFERENCES products(id)
+);
+
+-- Datos de ejemplo
+INSERT INTO customers (name, email) VALUES
+('Ana López','ana@example.com'),
+('Bruno Díaz','bruno@example.com'),
+('Carla Pérez','carla@example.com');
+
+INSERT INTO products (sku, name, price) VALUES
+('SKU-100','Teclado Mecánico', 1250.00),
+('SKU-200','Mouse Inalámbrico', 550.00),
+('SKU-300','Monitor 27"', 4999.90),
+('SKU-400','Base Laptop', 799.00);
+
+-- Orden 1 (Ana)
+INSERT INTO orders (customer_id, status) VALUES (1,'PAID');
+INSERT INTO order_items (order_id, product_id, qty, unit_price) VALUES
+(LAST_INSERT_ID(), 1, 1, 1250.00),
+(LAST_INSERT_ID(), 2, 2, 550.00);
+
+-- Orden 2 (Bruno)
+INSERT INTO orders (customer_id, status) VALUES (2,'NEW');
+INSERT INTO order_items (order_id, product_id, qty, unit_price) VALUES
+(LAST_INSERT_ID(), 3, 1, 4999.90);
+
+-- Orden 3 (Carla)
+INSERT INTO orders (customer_id, status) VALUES (3,'CANCELLED');
+INSERT INTO order_items (order_id, product_id, qty, unit_price) VALUES
+(LAST_INSERT_ID(), 4, 1, 799.00);
