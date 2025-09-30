@@ -1,0 +1,14 @@
+dash
+pandas
+plotly
+matplotlib
+numpy
+sqlalchemy
+pymssql
+flask-login
+werkzeug
+python-dotenv
+bcrypt
+PyJWT
+redis
+

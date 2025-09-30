@@ -1,0 +1,75 @@
+erDiagram
+    DIM_GEOGRAPHY {
+        CHAR(3) country_iso3 PK
+        NVARCHAR country_name
+        NVARCHAR subregion
+        NVARCHAR currency
+    }
+
+    DIM_PRODUCT {
+        INT product_id PK
+        NVARCHAR sku
+        NVARCHAR product_name
+        NVARCHAR category
+        NVARCHAR subcategory
+        DECIMAL base_price
+    }
+
+    DIM_CUSTOMER {
+        INT customer_id PK
+        NVARCHAR full_name
+        NVARCHAR email
+        NVARCHAR segment
+        CHAR(3) country_iso3 FK
+        NVARCHAR state_region
+        NVARCHAR city
+        DATE created_at
+    }
+
+    DIM_STORE {
+        INT store_id PK
+        NVARCHAR store_name
+        NVARCHAR store_type
+        CHAR(3) country_iso3 FK
+        NVARCHAR state_region
+        NVARCHAR city
+        DECIMAL latitude
+        DECIMAL longitude
+    }
+
+    DIM_DATE {
+        DATE date_id PK
+        INT year
+        INT quarter
+        INT month
+        NVARCHAR month_name
+        INT day
+        INT week
+    }
+
+    FACT_ORDER {
+        BIGINT order_id PK
+        DATE order_date FK
+        INT customer_id FK
+        INT store_id FK
+        NVARCHAR status
+        NVARCHAR currency
+    }
+
+    FACT_ORDER_ITEM {
+        BIGINT order_item_id PK
+        BIGINT order_id FK
+        INT product_id FK
+        INT quantity
+        DECIMAL unit_price
+        DECIMAL discount_pct
+    }
+
+    %% Relaciones
+    DIM_GEOGRAPHY ||--o{ DIM_CUSTOMER : "country_iso3"
+    DIM_GEOGRAPHY ||--o{ DIM_STORE : "country_iso3"
+    DIM_DATE ||--o{ FACT_ORDER : "date_id → order_date"
+    DIM_CUSTOMER ||--o{ FACT_ORDER : "customer_id"
+    DIM_STORE ||--o{ FACT_ORDER : "store_id"
+    FACT_ORDER ||--o{ FACT_ORDER_ITEM : "order_id"
+    DIM_PRODUCT ||--o{ FACT_ORDER_ITEM : "product_id"
