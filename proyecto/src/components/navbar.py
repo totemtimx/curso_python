@@ -6,6 +6,7 @@ def create_navbar():
         children=[
             dbc.NavItem(dbc.NavLink("Inicio", href="/")),
             dbc.NavItem(dbc.NavLink("Dashboard", href="/dashboard")),
+            dbc.NavItem(dbc.NavLink("Dashboard BD", href="/dashboard_bd")),
         ],
         brand="Mi Aplicación",
         brand_href="/",

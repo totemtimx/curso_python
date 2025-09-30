@@ -1,7 +1,7 @@
 from dash import html, dcc, Input, Output
 from src.app import app
 from src.components.navbar import create_navbar
-from src.pages import home, dashboard
+from src.pages import home, dashboard, bd_dashboard
 
 # Layout principal
 app.layout = html.Div([
@@ -18,6 +18,8 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/dashboard':
         return dashboard.layout()
+    elif pathname == '/dashboard_bd':
+        return bd_dashboard.layout()
     else:
         return home.layout()
 
