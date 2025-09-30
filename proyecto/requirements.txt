@@ -1,0 +1,8 @@
+dash
+dash-bootstrap-components
+plotly
+pandas>=2.0
+numpy
+SQLAlchemy>=2.0
+pymssql>=2.3
+python-dotenv
